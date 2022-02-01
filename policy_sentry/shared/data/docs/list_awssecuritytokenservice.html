@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              sts
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1023c11b9">
+             <table id="w85aab5b9e1094c11b9">
               <thead>
                <tr>
                 <th>
@@ -240,8 +228,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Returns a set of temporary security credentials that you can use to access AWS resources
-                                                that you might not normally have access to
+                Grants permission to obtain a set of temporary security credentials that you can use to access AWS resources that you might not normally have access to
                </td>
                <td rowspan="2">
                 Write
@@ -320,8 +307,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Returns a set of temporary security credentials for users who have been authenticated
-                                                via a SAML authentication response
+                Grants permission to obtain a set of temporary security credentials for users who have been authenticated via a SAML authentication response
                </td>
                <td rowspan="2">
                 Write
@@ -545,8 +531,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Returns a set of temporary security credentials for users who have been authenticated
-                                                in a mobile or web application with a web identity provider
+                Grants permission to obtain a set of temporary security credentials for users who have been authenticated in a mobile or web application with a web identity provider
                </td>
                <td rowspan="2">
                 Write
@@ -660,8 +645,7 @@
                 </a>
                </td>
                <td>
-                Decodes additional information about the authorization status of a request from an
-                                                encoded message returned in response to an AWS request
+                Grants permission to decode additional information about the authorization status of a request from an encoded message returned in response to an AWS request
                </td>
                <td>
                 Write
@@ -682,7 +666,7 @@
                 </a>
                </td>
                <td>
-                Returns details about the access key id passed as a parameter to the request.
+                Grants permission to obtain details about the access key id passed as a parameter to the request
                </td>
                <td>
                 Read
@@ -703,7 +687,7 @@
                 </a>
                </td>
                <td>
-                Returns details about the IAM identity whose credentials are used to call the API
+                Grants permission to obtain details about the IAM identity whose credentials are used to call the API
                </td>
                <td>
                 Read
@@ -724,8 +708,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Returns a set of temporary security credentials (consisting of an access key ID, a
-                                                secret access key, and a security token) for a federated user
+                Grants permission to obtain a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) for a federated user
                </td>
                <td rowspan="2">
                 Read
@@ -775,7 +758,7 @@
                 [permission only]
                </td>
                <td>
-                Returns a STS bearer token for an AWS root user, IAM role, or an IAM user
+                Grants permission to obtain a STS bearer token for an AWS root user, IAM role, or an IAM user
                </td>
                <td>
                 Read
@@ -783,6 +766,11 @@
                <td>
                </td>
                <td>
+                <p>
+                 <a href="#awssecuritytokenservice-sts_AWSServiceName">
+                  sts:AWSServiceName
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -796,8 +784,7 @@
                 </a>
                </td>
                <td>
-                Returns a set of temporary security credentials (consisting of an access key ID, a
-                                                secret access key, and a security token) for an AWS account or IAM user
+                Grants permission to obtain a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) for an AWS account or IAM user
                </td>
                <td>
                 Read
@@ -950,18 +937,15 @@
             <a href="#awssecuritytokenservice-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1023c13b5">
+             <table id="w85aab5b9e1094c13b5">
               <thead>
                <tr>
                 <th>
@@ -1043,16 +1027,13 @@
             Condition keys for        AWS Security Token Service
            </h2>
            <p>
-            AWS Security Token Service defines the following condition keys that can be used in
-                                    the
+            AWS Security Token Service defines the following condition keys that can be used in the
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -1065,7 +1046,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1023c15b7">
+             <table id="w85aab5b9e1094c15b7">
               <thead>
                <tr>
                 <th>
@@ -1088,7 +1069,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the Google application ID
+                Filters access by the Google application ID
                </td>
                <td>
                 String
@@ -1103,7 +1084,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the Google audience
+                Filters access by the Google audience
                </td>
                <td>
                 String
@@ -1118,7 +1099,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the subject of the claim (the Google user ID)
+                Filters access by the subject of the claim (the Google user ID)
                </td>
                <td>
                 String
@@ -1133,7 +1114,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the IdP that was used to authenticate the user
+                Filters access by the IdP that was used to authenticate the user
                </td>
                <td>
                 String
@@ -1148,8 +1129,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tag associated with the principal that is making the
-                                                request
+                Filters access by the tag associated with the principal that is making the request
                </td>
                <td>
                 String
@@ -1164,7 +1144,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tags that are passed in the request
+                Filters access by the tags that are passed in the request
                </td>
                <td>
                 String
@@ -1179,7 +1159,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tags associated with the resource
+                Filters access by the tags associated with the resource
                </td>
                <td>
                 String
@@ -1194,7 +1174,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the source identity that is set on the caller
+                Filters access by the source identity that is set on the caller
                </td>
                <td>
                 String
@@ -1209,7 +1189,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tag keys that are passed in the request
+                Filters access by the tag keys that are passed in the request
                </td>
                <td>
                 String
@@ -1224,7 +1204,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the login information for Amazon Cognito
+                Filters access by the login information for Amazon Cognito
                </td>
                <td>
                 String
@@ -1239,7 +1219,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the Amazon Cognito identity pool ID
+                Filters access by the Amazon Cognito identity pool ID
                </td>
                <td>
                 String
@@ -1254,7 +1234,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the subject of the claim (the Amazon Cognito user ID)
+                Filters access by the subject of the claim (the Amazon Cognito user ID)
                </td>
                <td>
                 String
@@ -1269,7 +1249,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the Facebook application ID
+                Filters access by the Facebook application ID
                </td>
                <td>
                 String
@@ -1284,7 +1264,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the Facebook user ID
+                Filters access by the Facebook user ID
                </td>
                <td>
                 String
@@ -1299,7 +1279,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tags that are attached to the role that is being assumed
+                Filters access by the tags that are attached to the role that is being assumed
                </td>
                <td>
                 String
@@ -1314,7 +1294,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the endpoint URL to which SAML assertions are presented
+                Filters access by the endpoint URL to which SAML assertions are presented
                </td>
                <td>
                 String
@@ -1329,10 +1309,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduOrg attribute
+                Filters access by the eduOrg attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1344,7 +1324,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the commonName attribute
+                Filters access by the commonName attribute
                </td>
                <td>
                 String
@@ -1359,7 +1339,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the principal that was used to assume the role
+                Filters access by on the principal that was used to assume the role
                </td>
                <td>
                 String
@@ -1374,10 +1354,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduOrg attribute
+                Filters access by the eduOrg attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1389,10 +1369,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduOrg attribute
+                Filters access by the eduOrg attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1404,10 +1384,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduOrg attribute
+                Filters access by the eduOrg attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1419,10 +1399,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduOrg attribute
+                Filters access by the eduOrg attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1434,10 +1414,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduOrg attribute
+                Filters access by the eduOrg attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1449,10 +1429,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1464,10 +1444,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1479,10 +1459,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1494,10 +1474,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1509,7 +1489,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
                 String
@@ -1524,10 +1504,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1539,7 +1519,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
                 String
@@ -1554,7 +1534,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
                 String
@@ -1569,7 +1549,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
                 String
@@ -1584,10 +1564,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1599,10 +1579,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the eduPerson attribute
+                Filters access by the eduPerson attribute
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -1614,7 +1594,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the givenName attribute
+                Filters access by the givenName attribute
                </td>
                <td>
                 String
@@ -1629,7 +1609,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the issuer, which is represented by a URN
+                Filters access by on the issuer, which is represented by a URN
                </td>
                <td>
                 String
@@ -1644,7 +1624,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the mail attribute
+                Filters access by the mail attribute
                </td>
                <td>
                 String
@@ -1659,7 +1639,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the name attribute
+                Filters access by the name attribute
                </td>
                <td>
                 String
@@ -1674,7 +1654,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the hash value of the issuer, account ID, and friendly name
+                Filters access by the hash value of the issuer, account ID, and friendly name
                </td>
                <td>
                 String
@@ -1689,7 +1669,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the organizationStatus attribute
+                Filters access by the organizationStatus attribute
                </td>
                <td>
                 String
@@ -1704,7 +1684,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the primaryGroupSID attribute
+                Filters access by the primaryGroupSID attribute
                </td>
                <td>
                 String
@@ -1719,7 +1699,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the subject of the claim (the SAML user ID)
+                Filters access by the subject of the claim (the SAML user ID)
                </td>
                <td>
                 String
@@ -1734,7 +1714,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the value persistent, transient, or the full Format URI
+                Filters access by the value persistent, transient, or the full Format URI
                </td>
                <td>
                 String
@@ -1749,7 +1729,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the surname attribute
+                Filters access by the surname attribute
                </td>
                <td>
                 String
@@ -1764,7 +1744,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the uid attribute
+                Filters access by the uid attribute
                </td>
                <td>
                 String
@@ -1779,7 +1759,22 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the uid attribute
+                Filters access by the uid attribute
+               </td>
+               <td>
+                String
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awssecuritytokenservice-sts_AWSServiceName">
+                </a>
+                <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_iam-condition-keys.html#ck_awsservicename">
+                 sts:AWSServiceName
+                </a>
+               </td>
+               <td>
+                Filters access by the service that is obtaining a bearer token
                </td>
                <td>
                 String
@@ -1794,8 +1789,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the unique identifier required when you assume a role in
-                                                another account
+                Filters access by the unique identifier required when you assume a role in another account
                </td>
                <td>
                 String
@@ -1810,7 +1804,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the role session name required when you assume a role
+                Filters access by the role session name required when you assume a role
                </td>
                <td>
                 String
@@ -1825,7 +1819,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the source identity that is passed in the request
+                Filters access by the source identity that is passed in the request
                </td>
                <td>
                 String
@@ -1840,7 +1834,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the transitive tag keys that are passed in the request
+                Filters access by the transitive tag keys that are passed in the request
                </td>
                <td>
                 String
@@ -1855,7 +1849,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the Login with Amazon application ID
+                Filters access by the Login with Amazon application ID
                </td>
                <td>
                 String
@@ -1870,7 +1864,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the Login with Amazon user ID
+                Filters access by the Login with Amazon user ID
                </td>
                <td>
                 String
@@ -1896,8 +1890,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>

@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              dynamodb
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d379c11b9">
+             <table id="w85aab5b9d407c11b9">
               <thead>
                <tr>
                 <th>
@@ -240,7 +228,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Returns the attributes of one or more items from one or more tables
+                Grants permission to return the attributes of one or more items from one or more tables
                </td>
                <td rowspan="2">
                 Read
@@ -294,7 +282,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Puts or deletes multiple items in one or more tables
+                Grants permission to put or delete multiple items in one or more tables
                </td>
                <td rowspan="2">
                 Write
@@ -343,8 +331,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                The ConditionCheckItem operation checks the existence of a set of attributes for the
-                                                item with the given primary key
+                Grants permission to the ConditionCheckItem operation checks the existence of a set of attributes for the item with the given primary key
                </td>
                <td rowspan="2">
                 Read
@@ -398,7 +385,7 @@
                 </a>
                </td>
                <td>
-                Creates a backup for an existing table
+                Grants permission to create a backup for an existing table
                </td>
                <td>
                 Write
@@ -424,7 +411,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Enables the user to create a global table from an existing table
+                Grants permission to create a global table from an existing table
                </td>
                <td rowspan="2">
                 Write
@@ -463,7 +450,7 @@
                 </a>
                </td>
                <td>
-                The CreateTable operation adds a new table to your account
+                Grants permission to the CreateTable operation adds a new table to your account
                </td>
                <td>
                 Write
@@ -489,7 +476,7 @@
                 </a>
                </td>
                <td>
-                Adds a new replica table
+                Grants permission to add a new replica table
                </td>
                <td>
                 Write
@@ -515,7 +502,7 @@
                 </a>
                </td>
                <td>
-                Deletes an existing backup of a table
+                Grants permission to delete an existing backup of a table
                </td>
                <td>
                 Write
@@ -541,7 +528,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Deletes a single item in a table by primary key
+                Grants permission to deletes a single item in a table by primary key
                </td>
                <td rowspan="2">
                 Write
@@ -600,7 +587,7 @@
                 </a>
                </td>
                <td>
-                The DeleteTable operation deletes a table and all of its items
+                Grants permission to the DeleteTable operation which deletes a table and all of its items
                </td>
                <td>
                 Write
@@ -626,7 +613,7 @@
                 </a>
                </td>
                <td>
-                Deletes a replica table and all of its items
+                Grants permission to delete a replica table and all of its items
                </td>
                <td>
                 Write
@@ -652,7 +639,7 @@
                 </a>
                </td>
                <td>
-                Describes an existing backup of a table
+                Grants permission to describe an existing backup of a table
                </td>
                <td>
                 Read
@@ -678,7 +665,7 @@
                 </a>
                </td>
                <td>
-                Checks the status of the backup restore settings on the specified table
+                Grants permission to check the status of the backup restore settings on the specified table
                </td>
                <td>
                 Read
@@ -704,8 +691,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Describes the contributor insights status and related details for a given table or
-                                                global secondary index
+                Grants permission to describe the contributor insights status and related details for a given table or global secondary index
                </td>
                <td rowspan="2">
                 Read
@@ -744,7 +730,7 @@
                 </a>
                </td>
                <td>
-                Describes an existing Export of a table
+                Grants permission to describe an existing Export of a table
                </td>
                <td>
                 Read
@@ -770,7 +756,7 @@
                 </a>
                </td>
                <td>
-                Returns information about the specified global table
+                Grants permission to return information about the specified global table
                </td>
                <td>
                 Read
@@ -796,7 +782,7 @@
                 </a>
                </td>
                <td>
-                Returns settings information about the specified global table
+                Grants permission to return settings information about the specified global table
                </td>
                <td>
                 Read
@@ -822,8 +808,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to describe the status of Kinesis streaming and related details
-                                                for a given table
+                Grants permission to grant permission to describe the status of Kinesis streaming and related details for a given table
                </td>
                <td>
                 Read
@@ -849,8 +834,7 @@
                 </a>
                </td>
                <td>
-                Returns the current provisioned-capacity limits for your AWS account in a region,
-                                                both for the region as a whole and for any one DynamoDB table that you create there
+                Grants permission to return the current provisioned-capacity limits for your AWS account in a region, both for the region as a whole and for any one DynamoDB table that you create there
                </td>
                <td>
                 Read
@@ -869,7 +853,7 @@
                 DescribeReservedCapacity
                </td>
                <td>
-                Describes one or more of the Reserved Capacity purchased
+                Grants permission to describe one or more of the Reserved Capacity purchased
                </td>
                <td>
                 Read
@@ -888,7 +872,7 @@
                 DescribeReservedCapacityOfferings
                </td>
                <td>
-                Describes Reserved Capacity offerings that are available for purchase
+                Grants permission to describe Reserved Capacity offerings that are available for purchase
                </td>
                <td>
                 Read
@@ -909,9 +893,7 @@
                 </a>
                </td>
                <td>
-                Returns information about a stream, including the current status of the stream, its
-                                                Amazon Resource Name (ARN), the composition of its shards, and its corresponding DynamoDB
-                                                table
+                Grants permission to return information about a stream, including the current status of the stream, its Amazon Resource Name (ARN), the composition of its shards, and its corresponding DynamoDB table
                </td>
                <td>
                 Read
@@ -937,7 +919,7 @@
                 </a>
                </td>
                <td>
-                Returns information about the table
+                Grants permission to return information about the table
                </td>
                <td>
                 Read
@@ -963,7 +945,7 @@
                 </a>
                </td>
                <td>
-                Describes the auto scaling settings across all replicas of the global table
+                Grants permission to describe the auto scaling settings across all replicas of the global table
                </td>
                <td>
                 Read
@@ -989,7 +971,7 @@
                 </a>
                </td>
                <td>
-                Gives a description of the Time to Live (TTL) status on the specified table.
+                Grants permission to give a description of the Time to Live (TTL) status on the specified table
                </td>
                <td>
                 Read
@@ -1015,8 +997,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to stop replication from the DynamoDB table to the Kinesis data
-                                                stream
+                Grants permission to grant permission to stop replication from the DynamoDB table to the Kinesis data stream
                </td>
                <td>
                 Write
@@ -1042,8 +1023,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to start table data replication to the specified Kinesis data stream
-                                                at a timestamp chosen during the enable workflow
+                Grants permission to grant permission to start table data replication to the specified Kinesis data stream at a timestamp chosen during the enable workflow
                </td>
                <td>
                 Write
@@ -1069,7 +1049,7 @@
                 </a>
                </td>
                <td>
-                Initiates an Export of a DynamoDB table to S3
+                Grants permission to initiate an Export of a DynamoDB table to S3
                </td>
                <td>
                 Write
@@ -1095,8 +1075,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                The GetItem operation returns a set of attributes for the item with the given primary
-                                                key
+                Grants permission to the GetItem operation that returns a set of attributes for the item with the given primary key
                </td>
                <td rowspan="2">
                 Read
@@ -1155,7 +1134,7 @@
                 </a>
                </td>
                <td>
-                Retrieves the stream records from a given shard
+                Grants permission to retrieve the stream records from a given shard
                </td>
                <td>
                 Read
@@ -1181,7 +1160,7 @@
                 </a>
                </td>
                <td>
-                Returns a shard iterator
+                Grants permission to return a shard iterator
                </td>
                <td>
                 Read
@@ -1207,7 +1186,7 @@
                 </a>
                </td>
                <td>
-                List backups associated with the account and endpoint
+                Grants permission to list backups associated with the account and endpoint
                </td>
                <td>
                 List
@@ -1228,8 +1207,7 @@
                 </a>
                </td>
                <td>
-                Lists the ContributorInsightsSummary for all tables and global secondary indexes associated
-                                                with the current account and endpoint
+                Grants permission to list the ContributorInsightsSummary for all tables and global secondary indexes associated with the current account and endpoint
                </td>
                <td>
                 List
@@ -1250,7 +1228,7 @@
                 </a>
                </td>
                <td>
-                List exports associated with the account and endpoint
+                Grants permission to list exports associated with the account and endpoint
                </td>
                <td>
                 List
@@ -1271,7 +1249,7 @@
                 </a>
                </td>
                <td>
-                Lists all global tables that have a replica in the specified region
+                Grants permission to list all global tables that have a replica in the specified region
                </td>
                <td>
                 List
@@ -1292,7 +1270,7 @@
                 </a>
                </td>
                <td>
-                Returns an array of stream ARNs associated with the current account and endpoint
+                Grants permission to return an array of stream ARNs associated with the current account and endpoint
                </td>
                <td>
                 Read
@@ -1313,7 +1291,7 @@
                 </a>
                </td>
                <td>
-                Returns an array of table names associated with the current account and endpoint
+                Grants permission to return an array of table names associated with the current account and endpoint
                </td>
                <td>
                 List
@@ -1334,7 +1312,7 @@
                 </a>
                </td>
                <td>
-                List all tags on an Amazon DynamoDB resource
+                Grants permission to list all tags on an Amazon DynamoDB resource
                </td>
                <td>
                 Read
@@ -1414,8 +1392,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to create a new item, if an item with same primary key does not
-                                                exist in the table
+                Grants permission to create a new item, if an item with same primary key does not exist in the table
                </td>
                <td rowspan="2">
                 Write
@@ -1588,7 +1565,7 @@
                 PurchaseReservedCapacityOfferings
                </td>
                <td>
-                Purchases Reserved Capacity for use with your account
+                Grants permission to purchases reserved capacity for use with your account
                </td>
                <td>
                 Write
@@ -1609,7 +1586,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Creates a new item, or replaces an old item with a new item
+                Grants permission to create a new item, or replace an old item with a new item
                </td>
                <td rowspan="2">
                 Write
@@ -1668,8 +1645,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Uses the primary key of a table or a secondary index to directly access items from
-                                                that table or index
+                Grants permission to use the primary key of a table or a secondary index to directly access items from that table or index
                </td>
                <td rowspan="3">
                 Read
@@ -1733,6 +1709,32 @@
                </td>
               </tr>
               <tr>
+               <td>
+                <a id="amazondynamodb-RestoreTableFromAwsBackup">
+                </a>
+                <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_RestoreTableFromAwsBackup.html">
+                 RestoreTableFromAwsBackup
+                </a>
+               </td>
+               <td>
+                Grants permission to create a new table from recovery point on AWS Backup
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazondynamodb-table">
+                  table*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td rowspan="2">
                 <a id="amazondynamodb-RestoreTableFromBackup">
                 </a>
@@ -1741,7 +1743,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Creates a new table from an existing backup
+                Grants permission to create a new table from an existing backup
                </td>
                <td rowspan="2">
                 Write
@@ -1780,7 +1782,7 @@
                 </a>
                </td>
                <td>
-                Restores a table to a point in time
+                Grants permission to restore a table to a point in time
                </td>
                <td>
                 Write
@@ -1806,8 +1808,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Returns one or more items and item attributes by accessing every item in a table or
-                                                a secondary index
+                Grants permission to return one or more items and item attributes by accessing every item in a table or a secondary index
                </td>
                <td rowspan="3">
                 Read
@@ -1867,6 +1868,32 @@
               </tr>
               <tr>
                <td>
+                <a id="amazondynamodb-StartAwsBackupJob">
+                </a>
+                <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_StartAwsBackupJob.html">
+                 StartAwsBackupJob
+                </a>
+               </td>
+               <td>
+                Grants permission to create a backup on AWS Backup with advanced features enabled
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazondynamodb-table">
+                  table*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazondynamodb-TagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_TagResource.html">
@@ -1874,7 +1901,7 @@
                 </a>
                </td>
                <td>
-                Associate a set of tags with an Amazon DynamoDB resource
+                Grants permission to associate a set of tags with an Amazon DynamoDB resource
                </td>
                <td>
                 Tagging
@@ -1900,7 +1927,7 @@
                 </a>
                </td>
                <td>
-                Removes the association of tags from an Amazon DynamoDB resource.
+                Grants permission to remove the association of tags from an Amazon DynamoDB resource
                </td>
                <td>
                 Tagging
@@ -1926,7 +1953,7 @@
                 </a>
                </td>
                <td>
-                Enables or disables continuous backups
+                Grants permission to enable or disable continuous backups
                </td>
                <td>
                 Write
@@ -1952,8 +1979,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Updates the status for contributor insights for a specific table or global secondary
-                                                index
+                Grants permission to update the status for contributor insights for a specific table or global secondary index
                </td>
                <td rowspan="2">
                 Write
@@ -1992,7 +2018,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Enables the user to add or remove replicas in the specified global table
+                Grants permission to add or remove replicas in the specified global table
                </td>
                <td rowspan="2">
                 Write
@@ -2031,7 +2057,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Enables the user to update settings of the specified global table
+                Grants permission to update settings of the specified global table
                </td>
                <td rowspan="2">
                 Write
@@ -2070,8 +2096,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Edits an existing item's attributes, or adds a new item to the table if it does not
-                                                already exist
+                Grants permission to edit an existing item's attributes, or adds a new item to the table if it does not already exist
                </td>
                <td rowspan="2">
                 Write
@@ -2130,8 +2155,7 @@
                 </a>
                </td>
                <td>
-                Modifies the provisioned throughput settings, global secondary indexes, or DynamoDB
-                                                Streams settings for a given table
+                Grants permission to modify the provisioned throughput settings, global secondary indexes, or DynamoDB Streams settings for a given table
                </td>
                <td>
                 Write
@@ -2157,7 +2181,7 @@
                 </a>
                </td>
                <td>
-                Updates auto scaling settings on your replica table
+                Grants permission to update auto scaling settings on your replica table
                </td>
                <td>
                 Write
@@ -2183,7 +2207,7 @@
                 </a>
                </td>
                <td>
-                Enables or disables TTL for the specified table
+                Grants permission to enable or disable TTL for the specified table
                </td>
                <td>
                 Write
@@ -2215,18 +2239,15 @@
             <a href="#amazondynamodb-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d379c13b5">
+             <table id="w85aab5b9d407c13b5">
               <thead>
                <tr>
                 <th>
@@ -2410,7 +2431,7 @@
                  <span>
                   {
                  </span>
-                 exportName}
+                 ExportName}
                 </code>
                </td>
                <td>
@@ -2455,11 +2476,9 @@
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -2480,8 +2499,7 @@
             </div>
             <div class="awsdocs-note-text">
              <p>
-              For information about how to use context keys to refine DynamoDB access using an IAM
-                                          policy, see
+              For information about how to use context keys to refine DynamoDB access using an IAM policy, see
               <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/specifying-conditions.html">
                Using IAM Policy Conditions for Fine-Grained Access Control
               </a>
@@ -2495,7 +2513,7 @@
            </div>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d379c15b9">
+             <table id="w85aab5b9d407c15b9">
               <thead>
                <tr>
                 <th>
@@ -2518,7 +2536,7 @@
                 </a>
                </td>
                <td>
-                Filter based on the attribute (field or column) names of the table.
+                Filter based on the attribute (field or column) names of the table
                </td>
                <td>
                 String
@@ -2533,8 +2551,7 @@
                 </a>
                </td>
                <td>
-                Used to block Transactions APIs calls and allow the non-Transaction APIs calls and
-                                                vice-versa.
+                Used to block Transactions APIs calls and allow the non-Transaction APIs calls and vice-versa
                </td>
                <td>
                 String
@@ -2549,7 +2566,7 @@
                 </a>
                </td>
                <td>
-                Used to block full table scan.
+                Used to block full table scan
                </td>
                <td>
                 Bool
@@ -2564,7 +2581,7 @@
                 </a>
                </td>
                <td>
-                Filters based on the partition key of the table.
+                Filters based on the partition key of the table
                </td>
                <td>
                 String
@@ -2579,8 +2596,7 @@
                 </a>
                </td>
                <td>
-                Filter based on the ReturnConsumedCapacity parameter of a request. Contains either
-                                                "TOTAL" or "NONE".
+                Filter based on the ReturnConsumedCapacity parameter of a request. Contains either "TOTAL" or "NONE"
                </td>
                <td>
                 String
@@ -2595,8 +2611,7 @@
                 </a>
                </td>
                <td>
-                Filter based on the ReturnValues parameter of request. Contains one of the following:
-                                                "ALL_OLD", "UPDATED_OLD","ALL_NEW","UPDATED_NEW", or "NONE".
+                Filter based on the ReturnValues parameter of request. Contains one of the following: "ALL_OLD", "UPDATED_OLD","ALL_NEW","UPDATED_NEW", or "NONE"
                </td>
                <td>
                 String
@@ -2611,7 +2626,7 @@
                 </a>
                </td>
                <td>
-                Filter based on the Select parameter of a Query or Scan request.
+                Filter based on the Select parameter of a Query or Scan request
                </td>
                <td>
                 String
@@ -2637,8 +2652,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>

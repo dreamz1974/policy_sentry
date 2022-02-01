@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              elasticmapreduce
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,33 +174,23 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
@@ -216,15 +204,13 @@
             </div>
             <div class="awsdocs-note-text">
              <p>
-              The DescribeJobFlows API is deprecated and will eventually be removed. We recommend
-                                          you use ListClusters, DescribeCluster, ListSteps, ListInstanceGroups and ListBootstrapActions
-                                          instead.
+              The DescribeJobFlows API is deprecated and will eventually be removed. We recommend you use ListClusters, DescribeCluster, ListSteps, ListInstanceGroups and ListBootstrapActions instead
              </p>
             </div>
            </div>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d443c11c11">
+             <table id="w85aab5b9d475c11c11">
               <thead>
                <tr>
                 <th>
@@ -256,7 +242,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to add an instance fleet to a running cluster.
+                Grants permission to add an instance fleet to a running cluster
                </td>
                <td>
                 Write
@@ -282,7 +268,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to add instance groups to a running cluster.
+                Grants permission to add instance groups to a running cluster
                </td>
                <td>
                 Write
@@ -308,7 +294,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to add new steps to a running cluster.
+                Grants permission to add new steps to a running cluster
                </td>
                <td>
                 Write
@@ -334,7 +320,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Grants permission to add tags to an Amazon EMR resource.
+                Grants permission to add tags to an Amazon EMR resource
                </td>
                <td rowspan="3">
                 Tagging
@@ -389,6 +375,33 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonelasticmapreduce-AttachEditor">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-working-with.html">
+                 AttachEditor
+                </a>
+                [permission only]
+               </td>
+               <td>
+                Grants permission to attach an EMR notebook to a compute engine
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-editor">
+                  editor*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonelasticmapreduce-CancelSteps">
                 </a>
                 <a href="https://docs.aws.amazon.com/emr/latest/APIReference/API_CancelSteps.html">
@@ -396,7 +409,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to cancel a pending step or steps in a running cluster.
+                Grants permission to cancel a pending step or steps in a running cluster
                </td>
                <td>
                 Write
@@ -423,7 +436,7 @@
                 [permission only]
                </td>
                <td rowspan="2">
-                Grants permission to create an EMR notebook.
+                Grants permission to create an EMR notebook
                </td>
                <td rowspan="2">
                 Write
@@ -465,6 +478,32 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonelasticmapreduce-CreatePersistentAppUI">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio-debug.html">
+                 CreatePersistentAppUI
+                </a>
+               </td>
+               <td>
+                Grants permission to create a persistent application history server
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-cluster">
+                  cluster*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonelasticmapreduce-CreateRepository">
                 </a>
                 <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks.html#emr-managed-notebooks-editor">
@@ -473,7 +512,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to create an EMR Notebook repository
+                Grants permission to create an EMR notebook repository
                </td>
                <td>
                 Write
@@ -494,7 +533,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create a security configuration.
+                Grants permission to create a security configuration
                </td>
                <td>
                 Write
@@ -515,7 +554,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create an EMR studio.
+                Grants permission to create an EMR Studio
                </td>
                <td>
                 Write
@@ -544,6 +583,32 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonelasticmapreduce-CreateStudioPresignedUrl">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio.html">
+                 CreateStudioPresignedUrl
+                </a>
+               </td>
+               <td>
+                Grants permission to launch an EMR Studio using IAM authentication mode
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-studio">
+                  studio*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonelasticmapreduce-CreateStudioSessionMapping">
                 </a>
                 <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio.html">
@@ -551,7 +616,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create an EMR studio session mapping.
+                Grants permission to create an EMR Studio session mapping
                </td>
                <td>
                 Write
@@ -578,7 +643,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to delete an EMR notebook.
+                Grants permission to delete an EMR notebook
                </td>
                <td>
                 Write
@@ -605,7 +670,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to delete an EMR Notebook repository.
+                Grants permission to delete an EMR notebook repository
                </td>
                <td>
                 Write
@@ -626,7 +691,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to delete a security configuration.
+                Grants permission to delete a security configuration
                </td>
                <td>
                 Write
@@ -647,7 +712,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to delete an EMR studio.
+                Grants permission to delete an EMR Studio
                </td>
                <td>
                 Write
@@ -673,7 +738,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to delete an EMR studio session mapping.
+                Grants permission to delete an EMR Studio session mapping
                </td>
                <td>
                 Write
@@ -699,8 +764,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get details about a cluster, including status, hardware and software
-                                                configuration, VPC settings, and so on.
+                Grants permission to get details about a cluster, including status, hardware and software configuration, VPC settings, and so on
                </td>
                <td>
                 Read
@@ -727,8 +791,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to view information about a notebook, including status, user, role,
-                                                tags, location, and more.
+                Grants permission to view information about a notebook, including status, user, role, tags, location, and more
                </td>
                <td>
                 Read
@@ -754,8 +817,7 @@
                 </a>
                </td>
                <td>
-                This API is deprecated and will eventually be removed. We recommend you use ListClusters,
-                                                DescribeCluster, ListSteps, ListInstanceGroups and ListBootstrapActions instead.
+                Grants permission to describe details of clusters (job flows). This API is deprecated and will eventually be removed. We recommend you use ListClusters, DescribeCluster, ListSteps, ListInstanceGroups and ListBootstrapActions instead
                </td>
                <td>
                 Read
@@ -781,7 +843,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to view information about a notebook execution.
+                Grants permission to view information about a notebook execution
                </td>
                <td>
                 Read
@@ -800,6 +862,53 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonelasticmapreduce-DescribePersistentAppUI">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio-debug.html">
+                 DescribePersistentAppUI
+                </a>
+               </td>
+               <td>
+                Grants permission to describe a persistent application history server
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-cluster">
+                  cluster*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonelasticmapreduce-DescribeReleaseLabel">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/APIReference/API_DescribeReleaseLabel.html">
+                 DescribeReleaseLabel
+                </a>
+               </td>
+               <td>
+                Grants permission to view information about an EMR release, such as which applications are supported
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonelasticmapreduce-DescribeRepository">
                 </a>
                 <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks.html#emr-managed-notebooks-editor">
@@ -808,7 +917,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to describe an EMR Notebook repository.
+                Grants permission to describe an EMR notebook repository
                </td>
                <td>
                 Read
@@ -829,7 +938,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get details of a security configuration.
+                Grants permission to get details of a security configuration
                </td>
                <td>
                 Read
@@ -850,7 +959,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get details about a cluster step.
+                Grants permission to get details about a cluster step
                </td>
                <td>
                 Read
@@ -876,7 +985,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to view information about an EMR studio.
+                Grants permission to view information about an EMR Studio
                </td>
                <td>
                 Read
@@ -895,6 +1004,59 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonelasticmapreduce-DetachEditor">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-working-with.html">
+                 DetachEditor
+                </a>
+                [permission only]
+               </td>
+               <td>
+                Grants permission to detach an EMR notebook from a compute engine
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-editor">
+                  editor*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonelasticmapreduce-GetAutoTerminationPolicy">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/APIReference/API_GetAutoTerminationPolicy.html">
+                 GetAutoTerminationPolicy
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve the auto-termination policy associated with a cluster
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-cluster">
+                  cluster*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonelasticmapreduce-GetBlockPublicAccessConfiguration">
                 </a>
                 <a href="https://docs.aws.amazon.com/emr/latest/APIReference/API_GetBlockPublicAccessConfiguration.html">
@@ -902,8 +1064,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve the EMR block public access configuration for the AWS
-                                                account in the Region.
+                Grants permission to retrieve the EMR block public access configuration for the AWS account in the Region
                </td>
                <td>
                 Read
@@ -924,10 +1085,62 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve the managed scaling policy associated with a cluster.
+                Grants permission to retrieve the managed scaling policy associated with a cluster
                </td>
                <td>
                 Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-cluster">
+                  cluster*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonelasticmapreduce-GetOnClusterAppUIPresignedURL">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio-debug.html">
+                 GetOnClusterAppUIPresignedURL
+                </a>
+               </td>
+               <td>
+                Grants permission to get a presigned URL for an application history server running on the cluster
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-cluster">
+                  cluster*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonelasticmapreduce-GetPersistentAppUIPresignedURL">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-studio-debug.html">
+                 GetPersistentAppUIPresignedURL
+                </a>
+               </td>
+               <td>
+                Grants permission to get a presigned URL for a persistent application history server
+               </td>
+               <td>
+                Write
                </td>
                <td>
                 <p>
@@ -950,7 +1163,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to view information about an EMR studio session mapping.
+                Grants permission to view information about an EMR Studio session mapping
                </td>
                <td>
                 Read
@@ -977,7 +1190,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to link an EMR Notebook repository to EMR notebooks.
+                Grants permission to link an EMR notebook repository to EMR notebooks
                </td>
                <td>
                 Write
@@ -998,7 +1211,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get details about the bootstrap actions associated with a cluster.
+                Grants permission to get details about the bootstrap actions associated with a cluster
                </td>
                <td>
                 Read
@@ -1024,7 +1237,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get the status of accessible clusters.
+                Grants permission to get the status of accessible clusters
                </td>
                <td>
                 List
@@ -1046,7 +1259,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to list summary information for accessible EMR notebooks.
+                Grants permission to list summary information for accessible EMR notebooks
                </td>
                <td>
                 List
@@ -1067,7 +1280,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get details of instance fleets in a cluster.
+                Grants permission to get details of instance fleets in a cluster
                </td>
                <td>
                 Read
@@ -1093,7 +1306,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get details of instance groups in a cluster.
+                Grants permission to get details of instance groups in a cluster
                </td>
                <td>
                 Read
@@ -1119,7 +1332,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get details about the Amazon EC2 instances in a cluster.
+                Grants permission to get details about the Amazon EC2 instances in a cluster
                </td>
                <td>
                 Read
@@ -1145,7 +1358,28 @@
                 </a>
                </td>
                <td>
-                Grants permission to list summary information for notebook executions.
+                Grants permission to list summary information for notebook executions
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonelasticmapreduce-ListReleaseLabels">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/APIReference/API_ListReleaseLabels.html">
+                 ListReleaseLabels
+                </a>
+               </td>
+               <td>
+                Grants permission to list and filter the available EMR releases in the current region
                </td>
                <td>
                 List
@@ -1167,7 +1401,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to list existing EMR Notebook repositories.
+                Grants permission to list existing EMR notebook repositories
                </td>
                <td>
                 List
@@ -1188,8 +1422,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to list available security configurations in this account by name,
-                                                along with creation dates and times.
+                Grants permission to list available security configurations in this account by name, along with creation dates and times
                </td>
                <td>
                 List
@@ -1210,7 +1443,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to list steps associated with a cluster.
+                Grants permission to list steps associated with a cluster
                </td>
                <td>
                 Read
@@ -1236,7 +1469,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to list summary information about EMR studio session mappings.
+                Grants permission to list summary information about EMR Studio session mappings
                </td>
                <td>
                 List
@@ -1257,7 +1490,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to list summary information about EMR studios.
+                Grants permission to list summary information about EMR Studios
                </td>
                <td>
                 List
@@ -1278,8 +1511,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to change cluster settings such as number of steps that can be executed
-                                                concurrently for a cluster.
+                Grants permission to change cluster settings such as number of steps that can be executed concurrently for a cluster
                </td>
                <td>
                 Write
@@ -1305,8 +1537,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to change the target On-Demand and target Spot capacities for a
-                                                instance fleet.
+                Grants permission to change the target On-Demand and target Spot capacities for a instance fleet
                </td>
                <td>
                 Write
@@ -1332,8 +1563,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to change the number and configuration of EC2 instances for an instance
-                                                group.
+                Grants permission to change the number and configuration of EC2 instances for an instance group
                </td>
                <td>
                 Write
@@ -1360,8 +1590,7 @@
                 [permission only]
                </td>
                <td rowspan="2">
-                Grants permission to launch the Jupyter notebook editor for an EMR notebook from within
-                                                the console.
+                Grants permission to launch the Jupyter notebook editor for an EMR notebook from within the console
                </td>
                <td rowspan="2">
                 Write
@@ -1400,8 +1629,33 @@
                 </a>
                </td>
                <td>
-                Grants permission to create or update an automatic scaling policy for a core instance
-                                                group or task instance group.
+                Grants permission to create or update an automatic scaling policy for a core instance group or task instance group
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-cluster">
+                  cluster*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonelasticmapreduce-PutAutoTerminationPolicy">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/APIReference/API_PutAutoTerminationPolicy.html">
+                 PutAutoTerminationPolicy
+                </a>
+               </td>
+               <td>
+                Grants permission to create or update the auto-termination policy associated with a cluster
                </td>
                <td>
                 Write
@@ -1427,8 +1681,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create or update the EMR block public access configuration for
-                                                the AWS account in the Region.
+                Grants permission to create or update the EMR block public access configuration for the AWS account in the Region
                </td>
                <td>
                 Permissions management
@@ -1449,8 +1702,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create or update the managed scaling policy associated with a
-                                                cluster.
+                Grants permission to create or update the managed scaling policy associated with a cluster
                </td>
                <td>
                 Write
@@ -1476,7 +1728,33 @@
                 </a>
                </td>
                <td>
-                Grants permission to remove an automatic scaling policy from an instance group.
+                Grants permission to remove an automatic scaling policy from an instance group
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonelasticmapreduce-cluster">
+                  cluster*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonelasticmapreduce-RemoveAutoTerminationPolicy">
+                </a>
+                <a href="https://docs.aws.amazon.com/emr/latest/APIReference/API_RemoveAutoTerminationPolicy.html">
+                 RemoveAutoTerminationPolicy
+                </a>
+               </td>
+               <td>
+                Grants permission to remove the auto-termination policy associated with a cluster
                </td>
                <td>
                 Write
@@ -1502,7 +1780,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to remove the managed scaling policy associated with a cluster.
+                Grants permission to remove the managed scaling policy associated with a cluster
                </td>
                <td>
                 Write
@@ -1528,7 +1806,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Grants permission to remove tags from an Amazon EMR resource.
+                Grants permission to remove tags from an Amazon EMR resource
                </td>
                <td rowspan="3">
                 Tagging
@@ -1580,7 +1858,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create and launch a cluster (job flow).
+                Grants permission to create and launch a cluster (job flow)
                </td>
                <td>
                 Write
@@ -1616,7 +1894,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to add and remove termination protection for a cluster.
+                Grants permission to add and remove termination protection for a cluster
                </td>
                <td>
                 Write
@@ -1643,7 +1921,7 @@
                 [permission only]
                </td>
                <td rowspan="2">
-                Grants permission to start an EMR notebook.
+                Grants permission to start an EMR notebook
                </td>
                <td rowspan="2">
                 Write
@@ -1682,7 +1960,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Grants permission to start an EMR notebook execution.
+                Grants permission to start an EMR notebook execution
                </td>
                <td rowspan="3">
                 Write
@@ -1745,7 +2023,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to shut down an EMR notebook.
+                Grants permission to shut down an EMR notebook
                </td>
                <td>
                 Write
@@ -1771,7 +2049,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to stop notebook execution.
+                Grants permission to stop notebook execution
                </td>
                <td>
                 Write
@@ -1797,7 +2075,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to terminate a cluster (job flow).
+                Grants permission to terminate a cluster (job flow)
                </td>
                <td>
                 Write
@@ -1824,7 +2102,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to unlink an EMR Notebook repository from EMR notebooks.
+                Grants permission to unlink an EMR notebook repository from EMR notebooks
                </td>
                <td>
                 Write
@@ -1846,7 +2124,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to update an EMR Notebook repository.
+                Grants permission to update an EMR notebook repository
                </td>
                <td>
                 Write
@@ -1867,7 +2145,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to update information about an EMR studio.
+                Grants permission to update information about an EMR Studio
                </td>
                <td>
                 Write
@@ -1893,7 +2171,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to update an EMR studio session mapping.
+                Grants permission to update an EMR Studio session mapping
                </td>
                <td>
                 Write
@@ -1917,7 +2195,7 @@
                 ViewEventsFromAllClustersInConsole [permission only]
                </td>
                <td>
-                Grants permission to use the EMR management console to view events from all clusters.
+                Grants permission to use the EMR console to view events from all clusters
                </td>
                <td>
                 List
@@ -1944,18 +2222,15 @@
             <a href="#amazonelasticmapreduce-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d443c13b5">
+             <table id="w85aab5b9d475c13b5">
               <thead>
                <tr>
                 <th>
@@ -2144,16 +2419,13 @@
             Condition keys for        Amazon Elastic MapReduce
            </h2>
            <p>
-            Amazon Elastic MapReduce defines the following condition keys that can be used in
-                                    the
+            Amazon Elastic MapReduce defines the following condition keys that can be used in the
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -2166,7 +2438,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d443c15b7">
+             <table id="w85aab5b9d475c15b7">
               <thead>
                <tr>
                 <th>
@@ -2189,7 +2461,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on whether the tag and value pair is provided with the action
+                Filters access by whether the tag and value pair is provided with the action
                </td>
                <td>
                 String
@@ -2204,7 +2476,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on the tag and value pair associated with an Amazon EMR resource
+                Filters access by the tag and value pair associated with an Amazon EMR resource
                </td>
                <td>
                 String
@@ -2219,8 +2491,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on whether the tag keys are provided with the action regardless
-                                                of tag value
+                Filters access by whether the tag keys are provided with the action regardless of tag value
                </td>
                <td>
                 String
@@ -2235,7 +2506,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on whether the tag and value pair is provided with the action
+                Filters access by whether the tag and value pair is provided with the action
                </td>
                <td>
                 String
@@ -2250,7 +2521,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tag and value pair associated with an Amazon EMR resource
+                Filters access by the tag and value pair associated with an Amazon EMR resource
                </td>
                <td>
                 String
@@ -2276,8 +2547,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>

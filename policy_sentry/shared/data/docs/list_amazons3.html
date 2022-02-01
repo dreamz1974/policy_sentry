@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              s3
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d995c11b9">
+             <table id="w85aab5b9e1066c11b9">
               <thead>
                <tr>
                 <th>
@@ -742,6 +730,11 @@
                   s3:x-amz-grant-write-acp
                  </a>
                 </p>
+                <p>
+                 <a href="#amazons3-s3_x-amz-object-ownership">
+                  s3:x-amz-object-ownership
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -1145,8 +1138,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to delete the policy on a specified object lambda enabled access
-                                                point
+                Grants permission to delete the policy on a specified object lambda enabled access point
                </td>
                <td rowspan="2">
                 Permissions management
@@ -1226,70 +1218,6 @@
                </td>
                <td rowspan="2">
                 Grants permission to delete the bucket named in the URI
-               </td>
-               <td rowspan="2">
-                Write
-               </td>
-               <td>
-                <p>
-                 <a href="#amazons3-bucket">
-                  bucket*
-                 </a>
-                </p>
-               </td>
-               <td>
-               </td>
-               <td>
-               </td>
-              </tr>
-              <tr>
-               <td>
-               </td>
-               <td>
-                <p>
-                 <a href="#amazons3-s3_authType">
-                  s3:authType
-                 </a>
-                </p>
-                <p>
-                 <a href="#amazons3-s3_ResourceAccount">
-                  s3:ResourceAccount
-                 </a>
-                </p>
-                <p>
-                 <a href="#amazons3-s3_signatureAge">
-                  s3:signatureAge
-                 </a>
-                </p>
-                <p>
-                 <a href="#amazons3-s3_signatureversion">
-                  s3:signatureversion
-                 </a>
-                </p>
-                <p>
-                 <a href="#amazons3-s3_TlsVersion">
-                  s3:TlsVersion
-                 </a>
-                </p>
-                <p>
-                 <a href="#amazons3-s3_x-amz-content-sha256">
-                  s3:x-amz-content-sha256
-                 </a>
-                </p>
-               </td>
-               <td>
-               </td>
-              </tr>
-              <tr>
-               <td rowspan="2">
-                <a id="amazons3-DeleteBucketOwnershipControls">
-                </a>
-                <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteBucketOwnershipControls.html">
-                 DeleteBucketOwnershipControls
-                </a>
-               </td>
-               <td rowspan="2">
-                Grants permission to delete ownership controls on a bucket
                </td>
                <td rowspan="2">
                 Write
@@ -1634,8 +1562,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to remove the null version of an object and insert a delete marker,
-                                                which becomes the current version of the object
+                Grants permission to remove the null version of an object and insert a delete marker, which becomes the current version of the object
                </td>
                <td rowspan="2">
                 Write
@@ -1714,8 +1641,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to use the tagging subresource to remove the entire tag set from
-                                                the specified object
+                Grants permission to use the tagging subresource to remove the entire tag set from the specified object
                </td>
                <td rowspan="2">
                 Tagging
@@ -2100,8 +2026,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to retrieve the configuration parameters and status for a batch
-                                                operations job
+                Grants permission to retrieve the configuration parameters and status for a batch operations job
                </td>
                <td rowspan="2">
                 Read
@@ -2229,8 +2154,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to uses the accelerate subresource to return the Transfer Acceleration
-                                                state of a bucket, which is either Enabled or Suspended
+                Grants permission to uses the accelerate subresource to return the Transfer Acceleration state of a bucket, which is either Enabled or Suspended
                </td>
                <td rowspan="2">
                 Read
@@ -2360,8 +2284,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to retrieve the configuration of the object lambda enabled access
-                                                point
+                Grants permission to retrieve the configuration of the object lambda enabled access point
                </td>
                <td rowspan="2">
                 Read
@@ -2519,8 +2442,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to returns the access point policy associated with the specified
-                                                access point
+                Grants permission to returns the access point policy associated with the specified access point
                </td>
                <td rowspan="2">
                 Read
@@ -2599,8 +2521,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to returns the access point policy associated with the specified
-                                                object lambda enabled access point
+                Grants permission to returns the access point policy associated with the specified object lambda enabled access point
                </td>
                <td rowspan="2">
                 Read
@@ -2758,8 +2679,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to return the policy status for a specific object lambda access
-                                                point policy
+                Grants permission to return the policy status for a specific object lambda access point policy
                </td>
                <td rowspan="2">
                 Read
@@ -2889,8 +2809,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to get an analytics configuration from an Amazon S3 bucket, identified
-                                                by the analytics configuration ID
+                Grants permission to get an analytics configuration from an Amazon S3 bucket, identified by the analytics configuration ID
                </td>
                <td rowspan="2">
                 Read
@@ -2954,8 +2873,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to use the acl subresource to return the access control list (ACL)
-                                                of an Amazon S3 bucket
+                Grants permission to use the acl subresource to return the access control list (ACL) of an Amazon S3 bucket
                </td>
                <td rowspan="2">
                 Read
@@ -3019,8 +2937,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to return the CORS configuration information set for an Amazon S3
-                                                bucket
+                Grants permission to return the CORS configuration information set for an Amazon S3 bucket
                </td>
                <td rowspan="2">
                 Read
@@ -3110,8 +3027,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to return the logging status of an Amazon S3 bucket and the permissions
-                                                users have to view or modify that status
+                Grants permission to return the logging status of an Amazon S3 bucket and the permissions users have to view or modify that status
                </td>
                <td rowspan="2">
                 Read
@@ -3431,8 +3347,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to retrieve the policy status for a specific Amazon S3 bucket, which
-                                                indicates whether the bucket is public
+                Grants permission to retrieve the policy status for a specific Amazon S3 bucket, which indicates whether the bucket is public
                </td>
                <td rowspan="2">
                 Read
@@ -3496,8 +3411,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to retrieve the PublicAccessBlock configuration for an Amazon S3
-                                                bucket
+                Grants permission to retrieve the PublicAccessBlock configuration for an Amazon S3 bucket
                </td>
                <td rowspan="2">
                 Read
@@ -3881,8 +3795,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to get an or list all Amazon S3 Intelligent Tiering configuration
-                                                in a S3 Bucket
+                Grants permission to get an or list all Amazon S3 Intelligent Tiering configuration in a S3 Bucket
                </td>
                <td rowspan="2">
                 Read
@@ -3946,8 +3859,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to return an inventory configuration from an Amazon S3 bucket, identified
-                                                by the inventory configuration ID
+                Grants permission to return an inventory configuration from an Amazon S3 bucket, identified by the inventory configuration ID
                </td>
                <td rowspan="2">
                 Read
@@ -4011,8 +3923,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to return the tag set of an existing Amazon S3 Batch Operations
-                                                job
+                Grants permission to return the tag set of an existing Amazon S3 Batch Operations job
                </td>
                <td rowspan="2">
                 Read
@@ -4076,8 +3987,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to return the lifecycle configuration information set on an Amazon
-                                                S3 bucket
+                Grants permission to return the lifecycle configuration information set on an Amazon S3 bucket
                </td>
                <td rowspan="2">
                 Read
@@ -4205,8 +4115,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to return configuration information about the specified multi region
-                                                access point
+                Grants permission to return configuration information about the specified multi region access point
                </td>
                <td rowspan="2">
                 Read
@@ -4285,8 +4194,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to returns the access point policy associated with the specified
-                                                multi region access point
+                Grants permission to returns the access point policy associated with the specified multi region access point
                </td>
                <td rowspan="2">
                 Read
@@ -4365,8 +4273,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to return the policy status for a specific multi region access point
-                                                policy
+                Grants permission to return the policy status for a specific multi region access point policy
                </td>
                <td rowspan="2">
                 Read
@@ -5097,8 +5004,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to replicate both unencrypted objects and objects encrypted with
-                                                SSE-S3 or SSE-KMS
+                Grants permission to replicate both unencrypted objects and objects encrypted with SSE-S3 or SSE-KMS
                </td>
                <td rowspan="2">
                 Read
@@ -5251,8 +5157,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to get Torrent files about a different version using the versionId
-                                                subresource
+                Grants permission to get Torrent files about a different version using the versionId subresource
                </td>
                <td rowspan="2">
                 Read
@@ -5321,8 +5226,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to get the replication configuration information set on an Amazon
-                                                S3 bucket
+                Grants permission to get the replication configuration information set on an Amazon S3 bucket
                </td>
                <td rowspan="2">
                 Read
@@ -5731,8 +5635,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to list some or all of the objects in an Amazon S3 bucket (up to
-                                                1000)
+                Grants permission to list some or all of the objects in an Amazon S3 bucket (up to 1000)
                </td>
                <td rowspan="2">
                 List
@@ -5905,8 +5808,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to list metadata about all the versions of objects in an Amazon
-                                                S3 bucket
+                Grants permission to list metadata about all the versions of objects in an Amazon S3 bucket
                </td>
                <td rowspan="2">
                 List
@@ -6102,8 +6004,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to list the parts that have been uploaded for a specific multipart
-                                                upload
+                Grants permission to list the parts that have been uploaded for a specific multipart upload
                </td>
                <td rowspan="2">
                 List
@@ -6297,8 +6198,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to use the accelerate subresource to set the Transfer Acceleration
-                                                state of an existing S3 bucket
+                Grants permission to use the accelerate subresource to set the Transfer Acceleration state of an existing S3 bucket
                </td>
                <td rowspan="2">
                 Write
@@ -6520,8 +6420,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to associate an access policy with a specified object lambda enabled
-                                                access point
+                Grants permission to associate an access policy with a specified object lambda enabled access point
                </td>
                <td rowspan="2">
                 Permissions management
@@ -6593,6 +6492,25 @@
               </tr>
               <tr>
                <td>
+                <a id="amazons3-PutAccessPointPublicAccessBlock">
+                </a>
+                PutAccessPointPublicAccessBlock
+               </td>
+               <td>
+                Grants permission to associate public access block configurations with a specified access point, while creating a access point
+               </td>
+               <td>
+                Permissions management
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazons3-PutAccountPublicAccessBlock">
                 </a>
                 <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_control_PutPublicAccessBlock.html">
@@ -6600,8 +6518,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create or modify the PublicAccessBlock configuration for an AWS
-                                                account
+                Grants permission to create or modify the PublicAccessBlock configuration for an AWS account
                </td>
                <td>
                 Permissions management
@@ -6652,8 +6569,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to set an analytics configuration for the bucket, specified by the
-                                                analytics configuration ID
+                Grants permission to set an analytics configuration for the bucket, specified by the analytics configuration ID
                </td>
                <td rowspan="2">
                 Write
@@ -6717,8 +6633,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to set the permissions on an existing bucket using access control
-                                                lists (ACLs)
+                Grants permission to set the permissions on an existing bucket using access control lists (ACLs)
                </td>
                <td rowspan="2">
                 Permissions management
@@ -6940,8 +6855,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to receive notifications when certain events happen in an Amazon
-                                                S3 bucket
+                Grants permission to receive notifications when certain events happen in an Amazon S3 bucket
                </td>
                <td rowspan="2">
                 Write
@@ -7064,7 +6978,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to add or replace ownership controls on a bucket
+                Grants permission to add, replace or delete ownership controls on a bucket
                </td>
                <td rowspan="2">
                 Write
@@ -7192,8 +7106,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to create or modify the PublicAccessBlock configuration for a specific
-                                                Amazon S3 bucket
+                Grants permission to create or modify the PublicAccessBlock configuration for a specific Amazon S3 bucket
                </td>
                <td rowspan="2">
                 Permissions management
@@ -7449,8 +7362,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to set the configuration of the website that is specified in the
-                                                website subresource
+                Grants permission to set the configuration of the website that is specified in the website subresource
                </td>
                <td rowspan="2">
                 Write
@@ -7578,8 +7490,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to create new or update or delete an existing Amazon S3 Intelligent
-                                                Tiering configuration
+                Grants permission to create new or update or delete an existing Amazon S3 Intelligent Tiering configuration
                </td>
                <td rowspan="2">
                 Write
@@ -7643,8 +7554,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to add an inventory configuration to the bucket, identified by the
-                                                inventory ID
+                Grants permission to add an inventory configuration to the bucket, identified by the inventory ID
                </td>
                <td rowspan="2">
                 Write
@@ -7792,8 +7702,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to create a new lifecycle configuration for the bucket or replace
-                                                an existing lifecycle configuration
+                Grants permission to create a new lifecycle configuration for the bucket or replace an existing lifecycle configuration
                </td>
                <td rowspan="2">
                 Write
@@ -7857,8 +7766,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to set or update a metrics configuration for the CloudWatch request
-                                                metrics from an Amazon S3 bucket
+                Grants permission to set or update a metrics configuration for the CloudWatch request metrics from an Amazon S3 bucket
                </td>
                <td rowspan="2">
                 Write
@@ -7922,8 +7830,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to associate an access policy with a specified multi region access
-                                                point
+                Grants permission to associate an access policy with a specified multi region access point
                </td>
                <td rowspan="2">
                 Permissions management
@@ -8171,8 +8078,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to set the access control list (ACL) permissions for new or existing
-                                                objects in an S3 bucket.
+                Grants permission to set the access control list (ACL) permissions for new or existing objects in an S3 bucket
                </td>
                <td rowspan="2">
                 Permissions management
@@ -8469,8 +8375,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to set the supplied tag-set to an object that already exists in
-                                                a bucket
+                Grants permission to set the supplied tag-set to an object that already exists in a bucket
                </td>
                <td rowspan="2">
                 Tagging
@@ -8564,8 +8469,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to use the acl subresource to set the access control list (ACL)
-                                                permissions for an object that already exists in a bucket
+                Grants permission to use the acl subresource to set the access control list (ACL) permissions for an object that already exists in a bucket
                </td>
                <td rowspan="2">
                 Permissions management
@@ -8788,8 +8692,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to create a new replication configuration or replace an existing
-                                                one
+                Grants permission to create a new replication configuration or replace an existing one
                </td>
                <td rowspan="2">
                 Write
@@ -9436,18 +9339,15 @@
             <a href="#amazons3-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d995c13b5">
+             <table id="w85aab5b9e1066c13b5">
               <thead>
                <tr>
                 <th>
@@ -9668,7 +9568,7 @@
                  <span>
                   {
                  </span>
-                 AccessPointName}
+                 AccessPointAlias}
                 </code>
                </td>
                <td>
@@ -9717,11 +9617,9 @@
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -9734,7 +9632,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d995c15b7">
+             <table id="w85aab5b9e1066c15b7">
               <thead>
                <tr>
                 <th>
@@ -9757,7 +9655,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tags that are passed in the request
+                Filters access by the tags that are passed in the request
                </td>
                <td>
                 String
@@ -9772,7 +9670,7 @@
                 </a>
                </td>
                <td>
-                Requested region for the multi region access point operation
+                Filters access by Requested region for the multi region access point operation
                </td>
                <td>
                 String
@@ -9787,7 +9685,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tags associated with the resource
+                Filters access by the tags associated with the resource
                </td>
                <td>
                 String
@@ -9802,10 +9700,10 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the tag keys that are passed in the request
+                Filters access by the tag keys that are passed in the request
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
@@ -9862,7 +9760,7 @@
                 </a>
                </td>
                <td>
-                Filters access to updating the job priority by operation
+                Filters access by operation to updating the job priority
                </td>
                <td>
                 String
@@ -9877,7 +9775,7 @@
                 </a>
                </td>
                <td>
-                Filters access to cancelling existing jobs by priority range
+                Filters access by priority range to cancelling existing jobs
                </td>
                <td>
                 Numeric
@@ -9907,8 +9805,7 @@
                 </a>
                </td>
                <td>
-                Filters access to cancelling suspended jobs by a specific job suspended cause (for
-                                                example, AWAITING_CONFIRMATION)
+                Filters access by a specific job suspended cause (for example, AWAITING_CONFIRMATION) to cancelling suspended jobs
                </td>
                <td>
                 String
@@ -9938,7 +9835,7 @@
                 </a>
                </td>
                <td>
-                Filters access to creating jobs by operation
+                Filters access by operation to creating jobs
                </td>
                <td>
                 String
@@ -9953,7 +9850,7 @@
                 </a>
                </td>
                <td>
-                Filters access to creating new jobs by priority range
+                Filters access by priority range to creating new jobs
                </td>
                <td>
                 Numeric
@@ -9986,14 +9883,14 @@
                 Filters access by the tag keys to be added to objects
                </td>
                <td>
-                String
+                ArrayOfString
                </td>
               </tr>
               <tr>
                <td>
                 <a id="amazons3-s3_ResourceAccount">
                 </a>
-                <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/amazon-s3-policy-keys.html#condition-key-bucket-ops-2">
+                <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/amazon-s3-policy-keys.html#example-object-resource-account">
                  s3:ResourceAccount
                 </a>
                </td>
@@ -10008,7 +9905,7 @@
                <td>
                 <a id="amazons3-s3_TlsVersion">
                 </a>
-                <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/bucket-policy-s3-sigv4-conditions.html">
+                <a href="#example-object-tls-version">
                  s3:TlsVersion
                 </a>
                </td>
@@ -10238,7 +10135,7 @@
                 </a>
                </td>
                <td>
-                Filters access to unsigned content in your bucket
+                Filters access by unsigned content in your bucket
                </td>
                <td>
                 String
@@ -10253,7 +10150,7 @@
                 </a>
                </td>
                <td>
-                Filters access to requests with a specific bucket, prefix, or object as the copy source
+                Filters access by copy source bucket, prefix, or object in the copy object requests
                </td>
                <td>
                 String
@@ -10268,7 +10165,7 @@
                 </a>
                </td>
                <td>
-                Filters access to requests with the x-amz-grant-full-control (full control) header
+                Filters access by x-amz-grant-full-control (full control) header
                </td>
                <td>
                 String
@@ -10283,7 +10180,7 @@
                 </a>
                </td>
                <td>
-                Filters access to requests with the x-amz-grant-read (read access) header
+                Filters access by x-amz-grant-read (read access) header
                </td>
                <td>
                 String
@@ -10298,8 +10195,7 @@
                 </a>
                </td>
                <td>
-                Filters access to requests with the x-amz-grant-read-acp (read permissions for the
-                                                ACL) header
+                Filters access by the x-amz-grant-read-acp (read permissions for the ACL) header
                </td>
                <td>
                 String
@@ -10314,7 +10210,7 @@
                 </a>
                </td>
                <td>
-                Filters access to requests with the x-amz-grant-write (write access) header
+                Filters access by the x-amz-grant-write (write access) header
                </td>
                <td>
                 String
@@ -10329,8 +10225,7 @@
                 </a>
                </td>
                <td>
-                Filters access to requests with the x-amz-grant-write-acp (write permissions for the
-                                                ACL) header
+                Filters access by the x-amz-grant-write-acp (write permissions for the ACL) header
                </td>
                <td>
                 String
@@ -10346,6 +10241,21 @@
                </td>
                <td>
                 Filters access by object metadata behavior (COPY or REPLACE) when objects are copied
+               </td>
+               <td>
+                String
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazons3-s3_x-amz-object-ownership">
+                </a>
+                <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/ensure-object-ownership.html#object-ownership-requiring-bucket-owner-enforced">
+                 s3:x-amz-object-ownership
+                </a>
+               </td>
+               <td>
+                Filters access by Object Ownership
                </td>
                <td>
                 String
@@ -10405,8 +10315,7 @@
                 </a>
                </td>
                <td>
-                Filters access by a specific website redirect location for buckets that are configured
-                                                as static websites
+                Filters access by a specific website redirect location for buckets that are configured as static websites
                </td>
                <td>
                 String
@@ -10432,8 +10341,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>
