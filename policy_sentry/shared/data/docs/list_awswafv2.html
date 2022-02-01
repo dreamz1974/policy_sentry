@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              wafv2
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1167c11b9">
+             <table id="w85aab5b9e1242c11b9">
               <thead>
                <tr>
                 <th>
@@ -305,8 +293,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to calculate web ACL capacity unit (WCU) requirements for a specified
-                                                scope and set of rules
+                Grants permission to calculate web ACL capacity unit (WCU) requirements for a specified scope and set of rules
                </td>
                <td>
                 Read
@@ -407,23 +394,49 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td rowspan="4">
                 <a id="awswafv2-CreateRuleGroup">
                 </a>
                 <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_CreateRuleGroup.html">
                  CreateRuleGroup
                 </a>
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Grants permission to create a RuleGroup
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Write
                </td>
                <td>
                 <p>
                  <a href="#awswafv2-rulegroup">
                   rulegroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-ipset">
+                  ipset
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-regexpatternset">
+                  regexpatternset
                  </a>
                 </p>
                </td>
@@ -451,23 +464,75 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td rowspan="6">
                 <a id="awswafv2-CreateWebACL">
                 </a>
                 <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_CreateWebACL.html">
                  CreateWebACL
                 </a>
                </td>
-               <td rowspan="2">
+               <td rowspan="6">
                 Grants permission to create a WebACL
                </td>
-               <td rowspan="2">
-                Permissions management
+               <td rowspan="6">
+                Write
                </td>
                <td>
                 <p>
                  <a href="#awswafv2-webacl">
                   webacl*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-ipset">
+                  ipset
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-managedruleset">
+                  managedruleset
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-regexpatternset">
+                  regexpatternset
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-rulegroup">
+                  rulegroup
                  </a>
                 </p>
                </td>
@@ -503,8 +568,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to delete FirewallManagedRulesGroups from a WebACL if not managed
-                                                by Firewall Manager anymore
+                Grants permission to delete FirewallManagedRulesGroups from a WebACL if not managed by Firewall Manager anymore
                </td>
                <td>
                 Write
@@ -663,7 +727,7 @@
                 Grants permission to delete a WebACL
                </td>
                <td>
-                Permissions management
+                Write
                </td>
                <td>
                 <p>
@@ -689,7 +753,7 @@
                 Grants permission to retrieve high-level information for a managed rule group
                </td>
                <td>
-                List
+                Read
                </td>
                <td>
                </td>
@@ -734,7 +798,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Grants permission disassociate a WebACL from an application resource
+                Grants permission to disassociate a WebACL from an application resource
                </td>
                <td rowspan="3">
                 Write
@@ -857,6 +921,32 @@
               </tr>
               <tr>
                <td>
+                <a id="awswafv2-GetManagedRuleSet">
+                </a>
+                <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_GetManagedRuleSet.html">
+                 GetManagedRuleSet
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve details about a ManagedRuleSet
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awswafv2-managedruleset">
+                  managedruleset*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awswafv2-GetPermissionPolicy">
                 </a>
                 <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_GetPermissionPolicy.html">
@@ -890,8 +980,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to retrieve the keys that are currently blocked by a rate-based
-                                                rule
+                Grants permission to retrieve the keys that are currently blocked by a rate-based rule
                </td>
                <td rowspan="2">
                 Read
@@ -1125,8 +1214,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve an array of managed rule groups that are available for
-                                                you to use
+                Grants permission to retrieve an array of managed rule groups that are available for you to use
                </td>
                <td>
                 List
@@ -1147,8 +1235,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve an array of IPSetSummary objects for the IP sets that
-                                                you manage
+                Grants permission to retrieve an array of IPSetSummary objects for the IP sets that you manage
                </td>
                <td>
                 List
@@ -1183,6 +1270,27 @@
               </tr>
               <tr>
                <td>
+                <a id="awswafv2-ListManagedRuleSets">
+                </a>
+                <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_ListManagedRuleSets.html">
+                 ListManagedRuleSets
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve an array of your ManagedRuleSet objects
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awswafv2-ListRegexPatternSets">
                 </a>
                 <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_ListRegexPatternSets.html">
@@ -1190,8 +1298,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve an array of RegexPatternSetSummary objects for the regex
-                                                pattern sets that you manage
+                Grants permission to retrieve an array of RegexPatternSetSummary objects for the regex pattern sets that you manage
                </td>
                <td>
                 List
@@ -1212,8 +1319,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve an array of the Amazon Resource Names (ARNs) for the
-                                                resources that are associated with a web ACL
+                Grants permission to retrieve an array of the Amazon Resource Names (ARNs) for the resources that are associated with a web ACL
                </td>
                <td>
                 List
@@ -1239,8 +1345,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve an array of RuleGroupSummary objects for the rule groups
-                                                that you manage
+                Grants permission to retrieve an array of RuleGroupSummary objects for the rule groups that you manage
                </td>
                <td>
                 List
@@ -1339,8 +1444,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve an array of WebACLSummary objects for the web ACLs that
-                                                you manage
+                Grants permission to retrieve an array of WebACLSummary objects for the web ACLs that you manage
                </td>
                <td>
                 List
@@ -1409,6 +1513,45 @@
                </td>
               </tr>
               <tr>
+               <td rowspan="2">
+                <a id="awswafv2-PutManagedRuleSetVersions">
+                </a>
+                <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_PutManagedRuleSetVersions.html">
+                 PutManagedRuleSetVersions
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to enable create a new or update an existing version of a ManagedRuleSet
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awswafv2-managedruleset">
+                  managedruleset*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-rulegroup">
+                  rulegroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <a id="awswafv2-PutPermissionPolicy">
                 </a>
@@ -1417,8 +1560,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to attach an IAM policy to a resource, used to share rule groups
-                                                between accounts
+                Grants permission to attach an IAM policy to a resource, used to share rule groups between accounts
                </td>
                <td>
                 Permissions management
@@ -1641,6 +1783,32 @@
                </td>
               </tr>
               <tr>
+               <td>
+                <a id="awswafv2-UpdateManagedRuleSetVersionExpiryDate">
+                </a>
+                <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_UpdateManagedRuleSetVersionExpiryDate.html">
+                 UpdateManagedRuleSetVersionExpiryDate
+                </a>
+               </td>
+               <td>
+                Grants permission to update the expiry date of a version in ManagedRuleSet
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awswafv2-managedruleset">
+                  managedruleset*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td rowspan="2">
                 <a id="awswafv2-UpdateRegexPatternSet">
                 </a>
@@ -1680,23 +1848,49 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td rowspan="4">
                 <a id="awswafv2-UpdateRuleGroup">
                 </a>
                 <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_UpdateRuleGroup.html">
                  UpdateRuleGroup
                 </a>
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Grants permission to update a RuleGroup
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Write
                </td>
                <td>
                 <p>
                  <a href="#awswafv2-rulegroup">
                   rulegroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-ipset">
+                  ipset
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-regexpatternset">
+                  regexpatternset
                  </a>
                 </p>
                </td>
@@ -1719,23 +1913,75 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td rowspan="6">
                 <a id="awswafv2-UpdateWebACL">
                 </a>
                 <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_UpdateWebACL.html">
                  UpdateWebACL
                 </a>
                </td>
-               <td rowspan="2">
+               <td rowspan="6">
                 Grants permission to update a WebACL
                </td>
-               <td rowspan="2">
-                Permissions management
+               <td rowspan="6">
+                Write
                </td>
                <td>
                 <p>
                  <a href="#awswafv2-webacl">
                   webacl*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-ipset">
+                  ipset
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-managedruleset">
+                  managedruleset
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-regexpatternset">
+                  regexpatternset
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awswafv2-rulegroup">
+                  rulegroup
                  </a>
                 </p>
                </td>
@@ -1772,18 +2018,15 @@
             <a href="#awswafv2-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1167c13b5">
+             <table id="w85aab5b9e1242c13b5">
               <thead>
                <tr>
                 <th>
@@ -1885,6 +2128,46 @@
                   aws:ResourceTag/${TagKey}
                  </a>
                 </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awswafv2-managedruleset">
+                </a>
+                <a href="https://docs.aws.amazon.com/waf/latest/APIReference/API_ManagedRuleSet.html">
+                 managedruleset
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:wafv2:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:$
+                 <span>
+                  {
+                 </span>
+                 Scope}/managedruleset/$
+                 <span>
+                  {
+                 </span>
+                 Name}/$
+                 <span>
+                  {
+                 </span>
+                 Id}
+                </code>
+               </td>
+               <td>
                </td>
               </tr>
               <tr>
@@ -2088,11 +2371,9 @@
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -2105,7 +2386,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1167c15b7">
+             <table id="w85aab5b9e1242c15b7">
               <thead>
                <tr>
                 <th>
@@ -2128,7 +2409,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the allowed set of values for each of the tags
+                Filters access by the allowed set of values for each of the tags
                </td>
                <td>
                 String
@@ -2143,7 +2424,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on tag-value associated with the resource
+                Filters access by tag-value associated with the resource
                </td>
                <td>
                 String
@@ -2158,7 +2439,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the presence of mandatory tags in the request
+                Filters access by the presence of mandatory tags in the request
                </td>
                <td>
                 String
@@ -2184,8 +2465,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>

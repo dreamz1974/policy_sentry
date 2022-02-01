@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              iotwireless
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d627c11b9">
+             <table id="w85aab5b9d666c11b9">
               <thead>
                <tr>
                 <th>
@@ -264,6 +252,123 @@
               </tr>
               <tr>
                <td rowspan="2">
+                <a id="awsiotcoreforlorawan-AssociateMulticastGroupWithFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_AssociateMulticastGroupWithFuotaTask.html">
+                 AssociateMulticastGroupWithFuotaTask
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to associate the MulticastGroup with FuotaTask
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="awsiotcoreforlorawan-AssociateWirelessDeviceWithFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_AssociateWirelessDeviceWithFuotaTask.html">
+                 AssociateWirelessDeviceWithFuotaTask
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to associate the wireless device with FuotaTask
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-WirelessDevice">
+                  WirelessDevice*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="awsiotcoreforlorawan-AssociateWirelessDeviceWithMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_AssociateWirelessDeviceWithMulticastGroup.html">
+                 AssociateWirelessDeviceWithMulticastGroup
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to associate the WirelessDevice with MulticastGroup
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-WirelessDevice">
+                  WirelessDevice*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
                 <a id="awsiotcoreforlorawan-AssociateWirelessDeviceWithThing">
                 </a>
                 <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_AssociateWirelessDeviceWithThing.html">
@@ -271,8 +376,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to associate the wireless device with AWS IoT thing for a given
-                                                wirelessDeviceId
+                Grants permission to associate the wireless device with AWS IoT thing for a given wirelessDeviceId
                </td>
                <td rowspan="2">
                 Write
@@ -353,8 +457,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to associate the wireless gateway with AWS IoT thing for a given
-                                                wirelessGatewayId
+                Grants permission to associate the wireless gateway with AWS IoT thing for a given wirelessGatewayId
                </td>
                <td rowspan="2">
                 Write
@@ -379,6 +482,32 @@
                 <p>
                  <a href="#awsiotcoreforlorawan-thing">
                   thing*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-CancelMulticastGroupSession">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_CancelMulticastGroupSession.html">
+                 CancelMulticastGroupSession
+                </a>
+               </td>
+               <td>
+                Grants permission to cancel the MulticastGroup session
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
                  </a>
                 </p>
                </td>
@@ -428,6 +557,68 @@
                </td>
                <td>
                 Grants permission to create a DeviceProfile resource
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#awsiotcoreforlorawan-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-CreateFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_CreateFuotaTask.html">
+                 CreateFuotaTask
+                </a>
+               </td>
+               <td>
+                Grants permission to create a FuotaTask resource
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-aws_RequestTag___TagKey_">
+                  aws:RequestTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#awsiotcoreforlorawan-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-CreateMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_CreateMulticastGroup.html">
+                 CreateMulticastGroup
+                </a>
+               </td>
+               <td>
+                Grants permission to create a MulticastGroup resource
                </td>
                <td>
                 Write
@@ -653,6 +844,79 @@
               </tr>
               <tr>
                <td>
+                <a id="awsiotcoreforlorawan-DeleteFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_DeleteFuotaTask.html">
+                 DeleteFuotaTask
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the FuotaTask
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-DeleteMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_DeleteMulticastGroup.html">
+                 DeleteMulticastGroup
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the MulticastGroup
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-DeleteQueuedMessages">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_DeleteQueuedMessages.html">
+                 DeleteQueuedMessages
+                </a>
+               </td>
+               <td>
+                Grants permission to delete QueuedMessages
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsiotcoreforlorawan-DeleteServiceProfile">
                 </a>
                 <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_DeleteServiceProfile.html">
@@ -799,6 +1063,123 @@
                 <p>
                  <a href="#awsiotcoreforlorawan-SidewalkAccount">
                   SidewalkAccount*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="awsiotcoreforlorawan-DisassociateMulticastGroupFromFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_DisassociateMulticastGroupFromFuotaTask.html">
+                 DisassociateMulticastGroupFromFuotaTask
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to disassociate the MulticastGroup from FuotaTask
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="awsiotcoreforlorawan-DisassociateWirelessDeviceFromFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_DisassociateWirelessDeviceFromFuotaTask.html">
+                 DisassociateWirelessDeviceFromFuotaTask
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to disassociate the wireless device from FuotaTask
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-WirelessDevice">
+                  WirelessDevice*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="awsiotcoreforlorawan-DisassociateWirelessDeviceFromMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_DisassociateWirelessDeviceFromMulticastGroup.html">
+                 DisassociateWirelessDeviceFromMulticastGroup
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to disassociate the wireless device from MulticastGroup
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-WirelessDevice">
+                  WirelessDevice*
                  </a>
                 </p>
                </td>
@@ -984,6 +1365,32 @@
               </tr>
               <tr>
                <td>
+                <a id="awsiotcoreforlorawan-GetFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_GetFuotaTask.html">
+                 GetFuotaTask
+                </a>
+               </td>
+               <td>
+                Grants permission to get the FuotaTask
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsiotcoreforlorawan-GetLogLevelsByResourceTypes">
                 </a>
                 <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_GetLogLevelsByResourceTypes.html">
@@ -992,6 +1399,79 @@
                </td>
                <td>
                 Grants permission to get log levels by resource types
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-GetMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_GetMulticastGroup.html">
+                 GetMulticastGroup
+                </a>
+               </td>
+               <td>
+                Grants permission to get the MulticastGroup
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-GetMulticastGroupSession">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_GetMulticastGroupSession.html">
+                 GetMulticastGroupSession
+                </a>
+               </td>
+               <td>
+                Grants permission to get the MulticastGroup session
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-GetNetworkAnalyzerConfiguration">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_GetNetworkAnalyzerConfiguration.html">
+                 GetNetworkAnalyzerConfiguration
+                </a>
+               </td>
+               <td>
+                Grants permission to get the NetworkAnalyzerConfiguration
                </td>
                <td>
                 Read
@@ -1021,6 +1501,32 @@
                 <p>
                  <a href="#awsiotcoreforlorawan-SidewalkAccount">
                   SidewalkAccount*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-GetResourceEventConfiguration">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_GetResourceEventConfiguration.html">
+                 GetResourceEventConfiguration
+                </a>
+               </td>
+               <td>
+                Grants permission to get an event configuration for an identifier
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-SidewalkAccount">
+                  SidewalkAccount
                  </a>
                 </p>
                </td>
@@ -1077,9 +1583,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve the customer account specific endpoint for CUPS protocol
-                                                connection or LoRaWAN Network Server (LNS) protocol connection, and optionally server
-                                                trust certificate in PEM format
+                Grants permission to retrieve the customer account specific endpoint for CUPS protocol connection or LoRaWAN Network Server (LNS) protocol connection, and optionally server trust certificate in PEM format
                </td>
                <td>
                 Read
@@ -1204,8 +1708,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to get the IoT Core Identity certificate id associated with the
-                                                WirelessGateway
+                Grants permission to get the IoT Core Identity certificate id associated with the WirelessGateway
                </td>
                <td>
                 Read
@@ -1335,7 +1838,7 @@
                 </a>
                </td>
                <td>
-                List information of available Destinations based on the AWS account.
+                Grants permission to list information of available Destinations based on the AWS account
                </td>
                <td>
                 Read
@@ -1356,13 +1859,80 @@
                 </a>
                </td>
                <td>
-                Grants permission to list information of available DeviceProfiles based on the AWS
-                                                account
+                Grants permission to list information of available DeviceProfiles based on the AWS account
                </td>
                <td>
                 Read
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-ListFuotaTasks">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_ListFuotaTasks.html">
+                 ListFuotaTasks
+                </a>
+               </td>
+               <td>
+                Grants permission to list information of available FuotaTasks based on the AWS account
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-ListMulticastGroups">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_ListMulticastGroups.html">
+                 ListMulticastGroups
+                </a>
+               </td>
+               <td>
+                Grants permission to list information of available MulticastGroups based on the AWS account
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-ListMulticastGroupsByFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_ListMulticastGroupsByFuotaTask.html">
+                 ListMulticastGroupsByFuotaTask
+                </a>
+               </td>
+               <td>
+                Grants permission to list information of available MulticastGroups by FuotaTask based on the AWS account
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -1392,6 +1962,27 @@
               </tr>
               <tr>
                <td>
+                <a id="awsiotcoreforlorawan-ListQueuedMessages">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_ListQueuedMessages.html">
+                 ListQueuedMessages
+                </a>
+               </td>
+               <td>
+                Grants permission to list the Queued Messages
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsiotcoreforlorawan-ListServiceProfiles">
                 </a>
                 <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_ListServiceProfiles.html">
@@ -1399,8 +1990,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to list information of available ServiceProfiles based on the AWS
-                                                account
+                Grants permission to list information of available ServiceProfiles based on the AWS account
                </td>
                <td>
                 Read
@@ -1525,8 +2115,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to list information of available WirelessDevices based on the AWS
-                                                account
+                Grants permission to list information of available WirelessDevices based on the AWS account
                </td>
                <td>
                 Read
@@ -1547,8 +2136,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to list information of available WirelessGateway task definitions
-                                                based on the AWS account
+                Grants permission to list information of available WirelessGateway task definitions based on the AWS account
                </td>
                <td>
                 Read
@@ -1569,8 +2157,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to list information of available WirelessGateways based on the AWS
-                                                account
+                Grants permission to list information of available WirelessGateways based on the AWS account
                </td>
                <td>
                 Read
@@ -1683,6 +2270,32 @@
               </tr>
               <tr>
                <td>
+                <a id="awsiotcoreforlorawan-SendDataToMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_SendDataToMulticastGroup.html">
+                 SendDataToMulticastGroup
+                </a>
+               </td>
+               <td>
+                Grants permission to send data to the MulticastGroup
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsiotcoreforlorawan-SendDataToWirelessDevice">
                 </a>
                 <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_SendDataToWirelessDevice.html">
@@ -1701,6 +2314,131 @@
                   WirelessDevice*
                  </a>
                 </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-StartBulkAssociateWirelessDeviceWithMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_StartBulkAssociateWirelessDeviceWithMulticastGroup.html">
+                 StartBulkAssociateWirelessDeviceWithMulticastGroup
+                </a>
+               </td>
+               <td>
+                Grants permission to associate the WirelessDevices with MulticastGroup
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-StartBulkDisassociateWirelessDeviceFromMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_StartBulkDisassociateWirelessDeviceFromMulticastGroup.html">
+                 StartBulkDisassociateWirelessDeviceFromMulticastGroup
+                </a>
+               </td>
+               <td>
+                Grants permission to bulk disassociate the WirelessDevices from MulticastGroup
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-StartFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_StartFuotaTask.html">
+                 StartFuotaTask
+                </a>
+               </td>
+               <td>
+                Grants permission to start the FuotaTask
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-StartMulticastGroupSession">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_StartMulticastGroupSession.html">
+                 StartMulticastGroupSession
+                </a>
+               </td>
+               <td>
+                Grants permission to start the MulticastGroup session
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-StartNetworkAnalyzerStream">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot/latest/developerguide/connect-iot-lorawan-network-analyzer-api.html">
+                 StartNetworkAnalyzerStream
+                </a>
+               </td>
+               <td>
+                Grants permission to start NetworkAnalyzer stream
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
                </td>
                <td>
                </td>
@@ -1838,8 +2576,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to simulate a provisioned device to send an uplink data with payload
-                                                of 'Hello'
+                Grants permission to simulate a provisioned device to send an uplink data with payload of 'Hello'
                </td>
                <td>
                 Write
@@ -2001,6 +2738,32 @@
               </tr>
               <tr>
                <td>
+                <a id="awsiotcoreforlorawan-UpdateFuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_UpdateFuotaTask.html">
+                 UpdateFuotaTask
+                </a>
+               </td>
+               <td>
+                Grants permission to update the FuotaTask
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-FuotaTask">
+                  FuotaTask*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsiotcoreforlorawan-UpdateLogLevelsByResourceTypes">
                 </a>
                 <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_UpdateLogLevelsByResourceTypes.html">
@@ -2009,6 +2772,53 @@
                </td>
                <td>
                 Grants permission to update log levels by resource types
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-UpdateMulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_UpdateMulticastGroup.html">
+                 UpdateMulticastGroup
+                </a>
+               </td>
+               <td>
+                Grants permission to update the MulticastGroup
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-MulticastGroup">
+                  MulticastGroup*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-UpdateNetworkAnalyzerConfiguration">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_UpdateNetworkAnalyzerConfiguration.html">
+                 UpdateNetworkAnalyzerConfiguration
+                </a>
+               </td>
+               <td>
+                Grants permission to update the NetworkAnalyzerConfiguration
                </td>
                <td>
                 Write
@@ -2038,6 +2848,32 @@
                 <p>
                  <a href="#awsiotcoreforlorawan-SidewalkAccount">
                   SidewalkAccount*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-UpdateResourceEventConfiguration">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_UpdateResourceEventConfiguration.html">
+                 UpdateResourceEventConfiguration
+                </a>
+               </td>
+               <td>
+                Grants permission to update an event configuration for an identifier
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-SidewalkAccount">
+                  SidewalkAccount
                  </a>
                 </p>
                </td>
@@ -2113,18 +2949,15 @@
             <a href="#awsiotcoreforlorawan-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d627c13b5">
+             <table id="w85aab5b9d666c13b5">
               <thead>
                <tr>
                 <th>
@@ -2399,6 +3232,80 @@
               </tr>
               <tr>
                <td>
+                <a id="awsiotcoreforlorawan-FuotaTask">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_CreateFuotaTask.html">
+                 FuotaTask
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:iotwireless:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:FuotaTask/$
+                 <span>
+                  {
+                 </span>
+                 FuotaTaskId}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awsiotcoreforlorawan-MulticastGroup">
+                </a>
+                <a href="https://docs.aws.amazon.com/iot-wireless/2020-11-22/apireference/API_CreateMulticastGroup.html">
+                 MulticastGroup
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:iotwireless:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:MulticastGroup/$
+                 <span>
+                  {
+                 </span>
+                 MulticastGroupId}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#awsiotcoreforlorawan-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awsiotcoreforlorawan-thing">
                 </a>
                 <a href="https://docs.aws.amazon.com/iot/latest/developerguide/thing-registry.html">
@@ -2468,16 +3375,13 @@
             Condition keys for        AWS IoT Core for LoRaWAN
            </h2>
            <p>
-            AWS IoT Core for LoRaWAN defines the following condition keys that can be used in
-                                    the
+            AWS IoT Core for LoRaWAN defines the following condition keys that can be used in the
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -2490,7 +3394,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d627c15b7">
+             <table id="w85aab5b9d666c15b7">
               <thead>
                <tr>
                 <th>
@@ -2508,11 +3412,12 @@
                <td>
                 <a id="awsiotcoreforlorawan-aws_RequestTag___TagKey_">
                 </a>
-                aws:RequestTag/${TagKey}
+                <a href="https://docs.aws.amazon.com/iot/latest/developerguide/tagging-iot-iam.html/">
+                 aws:RequestTag/${TagKey}
+                </a>
                </td>
                <td>
-                Filters access by a tag key that is present in the request that the user makes to
-                                                IoT Wireless
+                Filters access by a tag key that is present in the request that the user makes to IoT Wireless
                </td>
                <td>
                 String
@@ -2522,7 +3427,9 @@
                <td>
                 <a id="awsiotcoreforlorawan-aws_ResourceTag___TagKey_">
                 </a>
-                aws:ResourceTag/${TagKey}
+                <a href="https://docs.aws.amazon.com/iot/latest/developerguide/tagging-iot-iam.html/">
+                 aws:ResourceTag/${TagKey}
+                </a>
                </td>
                <td>
                 Filters access by tag key component of a tag attached to an IoT Wireless resource
@@ -2535,11 +3442,12 @@
                <td>
                 <a id="awsiotcoreforlorawan-aws_TagKeys">
                 </a>
-                aws:TagKeys
+                <a href="https://docs.aws.amazon.com/iot/latest/developerguide/tagging-iot-iam.html/">
+                 aws:TagKeys
+                </a>
                </td>
                <td>
-                Filters access based on the list of all the tag key names associated with the resource
-                                                in the request
+                Filters access by the list of all the tag key names associated with the resource in the request
                </td>
                <td>
                 String
@@ -2565,8 +3473,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>

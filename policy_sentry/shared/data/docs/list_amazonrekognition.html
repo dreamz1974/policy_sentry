@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              rekognition
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d951c11b9">
+             <table id="w85aab5b9e1018c11b9">
               <thead>
                <tr>
                 <th>
@@ -240,8 +228,7 @@
                 </a>
                </td>
                <td>
-                Compares a face in source input image with each face detected in the target input
-                                                image.
+                Grants permission to compare faces in the source input image with each face detected in the target input image
                </td>
                <td>
                 Read
@@ -254,33 +241,19 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td>
                 <a id="amazonrekognition-CreateCollection">
                 </a>
                 <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateCollection.html">
                  CreateCollection
                 </a>
                </td>
-               <td rowspan="2">
-                Creates a collection in an AWS region. You can then add faces to the collection using
-                                                the IndexFaces API.
+               <td>
+                Grants permission to create a collection in an AWS Region
                </td>
-               <td rowspan="2">
+               <td>
                 Write
                </td>
-               <td>
-                <p>
-                 <a href="#amazonrekognition-collection">
-                  collection*
-                 </a>
-                </p>
-               </td>
-               <td>
-               </td>
-               <td>
-               </td>
-              </tr>
-              <tr>
                <td>
                </td>
                <td>
@@ -294,6 +267,32 @@
                   aws:TagKeys
                  </a>
                 </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonrekognition-CreateDataset">
+                </a>
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateDataset.html">
+                 CreateDataset
+                </a>
+               </td>
+               <td>
+                Grants permission to create a new Amazon Rekognition Custom Labels dataset
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-project">
+                  project*
+                 </a>
+                </p>
+               </td>
+               <td>
                </td>
                <td>
                </td>
@@ -307,7 +306,7 @@
                 </a>
                </td>
                <td>
-                Creates a new Amazon Rekognition Custom Labels project.
+                Grants permission to create an Amazon Rekognition Custom Labels project
                </td>
                <td>
                 Write
@@ -325,36 +324,23 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="3">
+               <td rowspan="2">
                 <a id="amazonrekognition-CreateProjectVersion">
                 </a>
                 <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateProjectVersion.html">
                  CreateProjectVersion
                 </a>
                </td>
-               <td rowspan="3">
-                Creates a new version of a model and begins training.
+               <td rowspan="2">
+                Grants permission to begin training a new version of a model
                </td>
-               <td rowspan="3">
+               <td rowspan="2">
                 Write
                </td>
                <td>
                 <p>
                  <a href="#amazonrekognition-project">
                   project*
-                 </a>
-                </p>
-               </td>
-               <td>
-               </td>
-               <td>
-               </td>
-              </tr>
-              <tr>
-               <td>
-                <p>
-                 <a href="#amazonrekognition-projectversion">
-                  projectversion*
                  </a>
                 </p>
                </td>
@@ -382,37 +368,23 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="3">
+               <td rowspan="2">
                 <a id="amazonrekognition-CreateStreamProcessor">
                 </a>
                 <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateStreamProcessor.html">
                  CreateStreamProcessor
                 </a>
                </td>
-               <td rowspan="3">
-                Creates an Amazon Rekognition stream processor that you can use to detect and recognize
-                                                faces in a streaming video.
+               <td rowspan="2">
+                Grants permission to create an Amazon Rekognition stream processor
                </td>
-               <td rowspan="3">
+               <td rowspan="2">
                 Write
                </td>
                <td>
                 <p>
                  <a href="#amazonrekognition-collection">
                   collection*
-                 </a>
-                </p>
-               </td>
-               <td>
-               </td>
-               <td>
-               </td>
-              </tr>
-              <tr>
-               <td>
-                <p>
-                 <a href="#amazonrekognition-streamprocessor">
-                  streamprocessor*
                  </a>
                 </p>
                </td>
@@ -448,8 +420,7 @@
                 </a>
                </td>
                <td>
-                Deletes the specified collection. Note that this operation removes all faces in the
-                                                collection.
+                Grants permission to delete the specified collection
                </td>
                <td>
                 Write
@@ -468,6 +439,32 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonrekognition-DeleteDataset">
+                </a>
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DeleteDataset.html">
+                 DeleteDataset
+                </a>
+               </td>
+               <td>
+                Grants permission to delete an existing Amazon Rekognition Custom Labels dataset
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-dataset">
+                  dataset*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonrekognition-DeleteFaces">
                 </a>
                 <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DeleteFaces.html">
@@ -475,7 +472,7 @@
                 </a>
                </td>
                <td>
-                Deletes faces from a collection.
+                Grants permission to delete faces from a collection
                </td>
                <td>
                 Write
@@ -501,7 +498,7 @@
                 </a>
                </td>
                <td>
-                Deletes a project.
+                Grants permission to delete a project
                </td>
                <td>
                 Write
@@ -527,7 +524,7 @@
                 </a>
                </td>
                <td>
-                Deletes a model.
+                Grants permission to delete a model
                </td>
                <td>
                 Write
@@ -553,7 +550,7 @@
                 </a>
                </td>
                <td>
-                Deletes the stream processor identified by Name.
+                Grants permission to delete the specified stream processor
                </td>
                <td>
                 Write
@@ -579,7 +576,7 @@
                 </a>
                </td>
                <td>
-                Describes the specified collection.
+                Grants permission to read details about a collection
                </td>
                <td>
                 Read
@@ -598,6 +595,32 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonrekognition-DescribeDataset">
+                </a>
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DescribeDataset.html">
+                 DescribeDataset
+                </a>
+               </td>
+               <td>
+                Grants permission to describe an Amazon Rekognition Custom Labels dataset
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-dataset">
+                  dataset*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonrekognition-DescribeProjectVersions">
                 </a>
                 <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DescribeProjectVersions.html">
@@ -605,7 +628,7 @@
                 </a>
                </td>
                <td>
-                Lists and describes the model versions in an Amazon Rekognition Custom Labels project.
+                Grants permission to list the versions of a model in an Amazon Rekognition Custom Labels project
                </td>
                <td>
                 Read
@@ -631,7 +654,7 @@
                 </a>
                </td>
                <td>
-                Lists and gets information about your Amazon Rekognition Custom Labels projects.
+                Grants permission to list Amazon Rekognition Custom Labels projects
                </td>
                <td>
                 Read
@@ -652,7 +675,7 @@
                 </a>
                </td>
                <td>
-                Provides information about a stream processor created by CreateStreamProcessor.
+                Grants permission to get information about the specified stream processor
                </td>
                <td>
                 Read
@@ -678,8 +701,7 @@
                 </a>
                </td>
                <td>
-                Detects custom labels in a supplied image by using an Amazon Rekognition Custom Labels
-                                                model version.
+                Grants permission to detect custom labels in a supplied image
                </td>
                <td>
                 Read
@@ -705,7 +727,7 @@
                 </a>
                </td>
                <td>
-                Detects human faces within an image (JPEG or PNG) provided as input.
+                Grants permission to detect human faces within an image provided as input
                </td>
                <td>
                 Read
@@ -726,7 +748,7 @@
                 </a>
                </td>
                <td>
-                Detects instances of real-world labels within an image (JPEG or PNG) provided as input.
+                Grants permission to detect instances of real-world labels within an image provided as input
                </td>
                <td>
                 Read
@@ -747,7 +769,7 @@
                 </a>
                </td>
                <td>
-                Detects moderation labels within input image.
+                Grants permission to detect moderation labels within the input image
                </td>
                <td>
                 Read
@@ -768,7 +790,7 @@
                 </a>
                </td>
                <td>
-                Detects Protective Equipment in the input image.
+                Grants permission to detect Personal Protective Equipment in the input image
                </td>
                <td>
                 Read
@@ -789,12 +811,38 @@
                 </a>
                </td>
                <td>
-                Detects text in the input image and converts it into machine-readable text.
+                Grants permission to detect text in the input image and convert it into machine-readable text
                </td>
                <td>
                 Read
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonrekognition-DistributeDatasetEntries">
+                </a>
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_DistributeDatasetEntries.html">
+                 DistributeDatasetEntries
+                </a>
+               </td>
+               <td>
+                Grants permission to distribute the entries in a training dataset across the training dataset and the test dataset for a project
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-dataset">
+                  dataset*
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -810,8 +858,7 @@
                 </a>
                </td>
                <td>
-                Gets the name and additional information about a celebrity based on his or her Rekognition
-                                                ID.
+                Grants permission to read the name, and additional information, of a celebrity
                </td>
                <td>
                 Read
@@ -832,8 +879,7 @@
                 </a>
                </td>
                <td>
-                Gets the celebrity recognition results for a Rekognition Video analysis started by
-                                                StartCelebrityRecognition.
+                Grants permission to read the celebrity recognition results found in a stored video by an asynchronous celebrity recognition job
                </td>
                <td>
                 Read
@@ -854,8 +900,7 @@
                 </a>
                </td>
                <td>
-                Gets the content moderation analysis results for a Rekognition Video analysis started
-                                                by StartContentModeration.
+                Grants permission to read the content moderation analysis results found in a stored video by an asynchronous content moderation job
                </td>
                <td>
                 Read
@@ -876,7 +921,7 @@
                 </a>
                </td>
                <td>
-                Gets face detection results for a Rekognition Video analysis started by StartFaceDetection.
+                Grants permission to read the faces detection results found in a stored video by an asynchronous face detection job
                </td>
                <td>
                 Read
@@ -897,7 +942,7 @@
                 </a>
                </td>
                <td>
-                Gets the face search results for Rekognition Video face search started by StartFaceSearch.
+                Grants permission to read the matching collection faces found in a stored video by an asynchronous face search job
                </td>
                <td>
                 Read
@@ -918,7 +963,7 @@
                 </a>
                </td>
                <td>
-                Gets the label detection results of a Rekognition Video analysis started by StartLabelDetection.
+                Grants permission to read the label detected resuls found in a stored video by an asynchronous label detection job
                </td>
                <td>
                 Read
@@ -939,7 +984,7 @@
                 </a>
                </td>
                <td>
-                Gets information about people detected within a video.
+                Grants permission to read the list of persons detected in a stored video by an asynchronous person tracking job
                </td>
                <td>
                 Read
@@ -960,7 +1005,7 @@
                 </a>
                </td>
                <td>
-                Gets segment detection results for a Rekognition Video analysis started by StartSegmentDetection.
+                Grants permission to get the vdeo segments found in a stored video by an asynchronous segment detection job
                </td>
                <td>
                 Read
@@ -981,7 +1026,7 @@
                 </a>
                </td>
                <td>
-                Gets text detection results for a Rekognition Video analysis started by StartTextDetection.
+                Grants permission to get the text found in a stored video by an asynchronous text detection job
                </td>
                <td>
                 Read
@@ -1002,7 +1047,7 @@
                 </a>
                </td>
                <td>
-                Detects faces in the input image and adds them to the specified collection.
+                Grants permission to update an existing collection with faces detected in the input image
                </td>
                <td>
                 Write
@@ -1028,7 +1073,7 @@
                 </a>
                </td>
                <td>
-                Returns a list of collection IDs in your account.
+                Grants permission to read the collection Id's in your account
                </td>
                <td>
                 Read
@@ -1047,6 +1092,58 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonrekognition-ListDatasetEntries">
+                </a>
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListDatasetEntries.html">
+                 ListDatasetEntries
+                </a>
+               </td>
+               <td>
+                Grants permission to list the dataset entries in an existing Amazon Rekognition Custom Labels dataset
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-dataset">
+                  dataset*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonrekognition-ListDatasetLabels">
+                </a>
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListDatasetLabels.html">
+                 ListDatasetLabels
+                </a>
+               </td>
+               <td>
+                Grants permission to list the labels in a dataset
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-dataset">
+                  dataset*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonrekognition-ListFaces">
                 </a>
                 <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_ListFaces.html">
@@ -1054,7 +1151,7 @@
                 </a>
                </td>
                <td>
-                Returns metadata for faces in the specified collection.
+                Grants permission to read metadata for faces in the specificed collection
                </td>
                <td>
                 Read
@@ -1080,7 +1177,7 @@
                 </a>
                </td>
                <td>
-                Gets a list of stream processors that you have created with CreateStreamProcessor.
+                Grants permission to get a list of your stream processors
                </td>
                <td>
                 List
@@ -1106,7 +1203,7 @@
                 </a>
                </td>
                <td>
-                Returns a list of tags associated with a resource.
+                Grants permission to return a list of tags associated with a resource
                </td>
                <td>
                 Read
@@ -1132,7 +1229,7 @@
                 </a>
                </td>
                <td>
-                Returns an array of celebrities recognized in the input image.
+                Grants permission to detect celebrities in the input image
                </td>
                <td>
                 Read
@@ -1153,7 +1250,7 @@
                 </a>
                </td>
                <td>
-                For a given input face ID, searches the specified collection for matching faces.
+                Grants permission to search the specificed collection for the supplied face ID
                </td>
                <td>
                 Read
@@ -1179,8 +1276,7 @@
                 </a>
                </td>
                <td>
-                For a given input image, first detects the largest face in the image, and then searches
-                                                the specified collection for matching faces.
+                Grants permission to search the specificed collection for the largest face in the input image
                </td>
                <td>
                 Read
@@ -1206,7 +1302,7 @@
                 </a>
                </td>
                <td>
-                Starts asynchronous recognition of celebrities in a video.
+                Grants permission to start the asynchronous recognition of celebrities in a stored video
                </td>
                <td>
                 Write
@@ -1227,7 +1323,7 @@
                 </a>
                </td>
                <td>
-                Starts asynchronous detection of explicit or suggestive adult content in a video.
+                Grants permission to start asynchronous detection of explicit or suggestive adult content in a stored video
                </td>
                <td>
                 Write
@@ -1248,7 +1344,7 @@
                 </a>
                </td>
                <td>
-                Starts asynchronous detection of faces in a video.
+                Grants permission to start asynchronous detection of faces in a stored video
                </td>
                <td>
                 Write
@@ -1269,8 +1365,7 @@
                 </a>
                </td>
                <td>
-                Starts the asynchronous search for faces in a collection that match the faces of persons
-                                                detected in a video.
+                Grants permission to start an asynchronous search for faces in a collection that match the faces of persons detected in a stored video
                </td>
                <td>
                 Write
@@ -1296,7 +1391,7 @@
                 </a>
                </td>
                <td>
-                Starts asynchronous detection of labels in a video.
+                Grants permission to start asynchronous detection of labels in a stored video
                </td>
                <td>
                 Write
@@ -1317,7 +1412,7 @@
                 </a>
                </td>
                <td>
-                Starts the asynchronous tracking of persons in a video.
+                Grants permission to start the asynchronous tracking of persons in a stored video
                </td>
                <td>
                 Write
@@ -1338,7 +1433,7 @@
                 </a>
                </td>
                <td>
-                Starts the deployment of a model version.
+                Grants permission to start running a model version
                </td>
                <td>
                 Write
@@ -1364,7 +1459,7 @@
                 </a>
                </td>
                <td>
-                Starts asynchronous detection of segments in a video.
+                Grants permission to start the asynchronous detection of segments in a stored video
                </td>
                <td>
                 Write
@@ -1385,7 +1480,7 @@
                 </a>
                </td>
                <td>
-                Starts processing a stream processor.
+                Grants permission to start running a stream processor
                </td>
                <td>
                 Write
@@ -1411,7 +1506,7 @@
                 </a>
                </td>
                <td>
-                Starts asynchronous detection of text in a video.
+                Grants permission to start the asynchronous detection of text in a stored video
                </td>
                <td>
                 Write
@@ -1432,7 +1527,7 @@
                 </a>
                </td>
                <td>
-                Stops a deployed model version.
+                Grants permission to stop a running model version
                </td>
                <td>
                 Write
@@ -1458,7 +1553,7 @@
                 </a>
                </td>
                <td>
-                Stops a running stream processor that was created by CreateStreamProcessor.
+                Grants permission to stop  a running stream processor
                </td>
                <td>
                 Write
@@ -1476,23 +1571,49 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td rowspan="4">
                 <a id="amazonrekognition-TagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_TagResource.html">
                  TagResource
                 </a>
                </td>
-               <td rowspan="2">
-                Adds one or more tags to a resource.
+               <td rowspan="4">
+                Grants permission to add one or more tags to a resource
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Tagging
                </td>
                <td>
                 <p>
+                 <a href="#amazonrekognition-collection">
+                  collection
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
                  <a href="#amazonrekognition-projectversion">
-                  projectversion*
+                  projectversion
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-streamprocessor">
+                  streamprocessor
                  </a>
                 </p>
                </td>
@@ -1520,23 +1641,49 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="2">
+               <td rowspan="4">
                 <a id="amazonrekognition-UntagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_UntagResource.html">
                  UntagResource
                 </a>
                </td>
-               <td rowspan="2">
-                Removes one or more tags from a resource.
+               <td rowspan="4">
+                Grants permission to remove one or more tags from a resource
                </td>
-               <td rowspan="2">
+               <td rowspan="4">
                 Tagging
                </td>
                <td>
                 <p>
+                 <a href="#amazonrekognition-collection">
+                  collection
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
                  <a href="#amazonrekognition-projectversion">
-                  projectversion*
+                  projectversion
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-streamprocessor">
+                  streamprocessor
                  </a>
                 </p>
                </td>
@@ -1558,6 +1705,32 @@
                <td>
                </td>
               </tr>
+              <tr>
+               <td>
+                <a id="amazonrekognition-UpdateDatasetEntries">
+                </a>
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_UpdateDatasetEntries.html">
+                 UpdateDatasetEntries
+                </a>
+               </td>
+               <td>
+                Grants permission to add or update one or more JSON Lines (entries) in a dataset
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonrekognition-dataset">
+                  dataset*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
              </table>
             </div>
            </div>
@@ -1573,18 +1746,15 @@
             <a href="#amazonrekognition-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d951c13b5">
+             <table id="w85aab5b9e1018c13b5">
               <thead>
                <tr>
                 <th>
@@ -1634,7 +1804,9 @@
                <td>
                 <a id="amazonrekognition-streamprocessor">
                 </a>
-                streamprocessor
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/using-rekognition-video-stream-processor.html">
+                 streamprocessor
+                </a>
                </td>
                <td>
                 <code class="code">
@@ -1664,7 +1836,9 @@
                <td>
                 <a id="amazonrekognition-project">
                 </a>
-                project
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/cp-create-project.html">
+                 project
+                </a>
                </td>
                <td>
                 <code class="code">
@@ -1698,7 +1872,9 @@
                <td>
                 <a id="amazonrekognition-projectversion">
                 </a>
-                projectversion
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/API_CreateProjectVersion.html">
+                 projectversion
+                </a>
                </td>
                <td>
                 <code class="code">
@@ -1732,6 +1908,46 @@
                <td>
                </td>
               </tr>
+              <tr>
+               <td>
+                <a id="amazonrekognition-dataset">
+                </a>
+                <a href="https://docs.aws.amazon.com/rekognition/latest/dg/cd-create-dataset.html">
+                 dataset
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:rekognition:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:project/$
+                 <span>
+                  {
+                 </span>
+                 ProjectName}/dataset/$
+                 <span>
+                  {
+                 </span>
+                 DatasetType}/$
+                 <span>
+                  {
+                 </span>
+                 CreationTimestamp}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
              </table>
             </div>
            </div>
@@ -1743,11 +1959,9 @@
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -1760,7 +1974,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d951c15b7">
+             <table id="w85aab5b9e1018c15b7">
               <thead>
                <tr>
                 <th>
@@ -1783,7 +1997,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on the tags that are passed in the request
+                Filters access by tags that are passed in the request
                </td>
                <td>
                 String
@@ -1798,7 +2012,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on the tags associated with the resource
+                Filters access by tags associated with the resource
                </td>
                <td>
                 String
@@ -1813,7 +2027,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on the tag keys that are passed in the request
+                Filters access by tag keys that are passed in the request
                </td>
                <td>
                 String
@@ -1839,8 +2053,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>
@@ -1857,8 +2070,8 @@
             <div accesskey="p" class="prev-link" href="./list_amazonredshiftdataapi.html" id="previous">
              Amazon Redshift Data API
             </div>
-            <div accesskey="n" class="next-link" href="./list_awsresourceaccessmanager.html" id="next">
-             AWS Resource Access Manager
+            <div accesskey="n" class="next-link" href="./list_awsresiliencehubservice.html" id="next">
+             AWS Resilience Hub Service
             </div>
            </div>
           </div>

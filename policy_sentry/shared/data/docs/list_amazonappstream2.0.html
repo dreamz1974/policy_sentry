@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              appstream
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -127,7 +125,7 @@
              <li class="listitem">
               <p>
                View a list of the
-               <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/">
+               <a href="https://docs.aws.amazon.com/appstream2/latest/developerguide/">
                 API operations available for this          service
                </a>
                .
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9c99c11b9">
+             <table id="w85aab5b9d107c11b9">
               <thead>
                <tr>
                 <th>
@@ -231,6 +219,84 @@
                 </th>
                </tr>
               </thead>
+              <tr>
+               <td rowspan="3">
+                <a id="amazonappstream2.0-AssociateApplicationFleet">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_AssociateApplicationFleet.html">
+                 AssociateApplicationFleet
+                </a>
+               </td>
+               <td rowspan="3">
+                Grants permission to associate the specified application with the fleet
+               </td>
+               <td rowspan="3">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-application">
+                  application*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-fleet">
+                  fleet*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-AssociateApplicationToEntitlement">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_AssociateApplicationToEntitlement.html">
+                 AssociateApplicationToEntitlement
+                </a>
+               </td>
+               <td>
+                Grants permission to associate the specified application to the specified entitlement
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-stack">
+                  stack*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
               <tr>
                <td rowspan="3">
                 <a id="amazonappstream2.0-AssociateFleet">
@@ -292,9 +358,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to associate the specified users with the specified stacks. Users
-                                                in a user pool cannot be assigned to stacks with fleets that are joined to an Active
-                                                Directory domain
+                Grants permission to associate the specified users with the specified stacks. Users in a user pool cannot be assigned to stacks with fleets that are joined to an Active Directory domain
                </td>
                <td rowspan="2">
                 Write
@@ -372,8 +436,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to copy the specified image within the same Region or to a new Region
-                                                within the same AWS account
+                Grants permission to copy the specified image within the same Region or to a new Region within the same AWS account
                </td>
                <td rowspan="2">
                 Write
@@ -404,6 +467,94 @@
                </td>
               </tr>
               <tr>
+               <td rowspan="2">
+                <a id="amazonappstream2.0-CreateAppBlock">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_CreateAppBlock.html">
+                 CreateAppBlock
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create an app block. App blocks store details about the virtual hard disk that contains the files for the application in an S3 bucket. It also stores the setup script with details about how to mount the virtual hard disk. App blocks are only supported for Elastic fleets
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-app-block">
+                  app-block*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonappstream2.0-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonappstream2.0-CreateApplication">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_CreateApplication.html">
+                 CreateApplication
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to create an application within customer account. Applications store the details about how to launch applications on streaming instances. This is only supported for Elastic fleets
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-app-block">
+                  app-block*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+                <p>
+                 <a href="#amazonappstream2.0-aws_TagKeys">
+                  aws:TagKeys
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <a id="amazonappstream2.0-CreateDirectoryConfig">
                 </a>
@@ -412,14 +563,38 @@
                 </a>
                </td>
                <td>
-                Grants permission to create a Directory Config object in AppStream 2.0. This object
-                                                includes the configuration information required to join fleets and image builders
-                                                to Microsoft Active Directory domains
+                Grants permission to create a Directory Config object in AppStream 2.0. This object includes the configuration information required to join fleets and image builders to Microsoft Active Directory domains
                </td>
                <td>
                 Write
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-CreateEntitlement">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_CreateEntitlement.html">
+                 CreateEntitlement
+                </a>
+               </td>
+               <td>
+                Grants permission to create an entitlement to control access to applications based on user attributes
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-stack">
+                  stack*
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -435,8 +610,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Grants permission to create a fleet. A fleet is a group of streaming instances from
-                                                which applications are launched and streamed to users
+                Grants permission to create a fleet. A fleet is a group of streaming instances from which applications are launched and streamed to users
                </td>
                <td rowspan="3">
                 Write
@@ -457,7 +631,7 @@
                <td>
                 <p>
                  <a href="#amazonappstream2.0-image">
-                  image*
+                  image
                  </a>
                 </p>
                </td>
@@ -493,8 +667,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Grants permission to create an image builder. An image builder is a virtual machine
-                                                that is used to create an image
+                Grants permission to create an image builder. An image builder is a virtual machine that is used to create an image
                </td>
                <td rowspan="3">
                 Write
@@ -590,8 +763,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to create a stack to start streaming applications to users. A stack
-                                                consists of an associated fleet, user access policies, and storage configurations
+                Grants permission to create a stack to start streaming applications to users. A stack consists of an associated fleet, user access policies, and storage configurations
                </td>
                <td rowspan="2">
                 Write
@@ -635,9 +807,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Grants permission to create a temporary URL to start an AppStream 2.0 streaming session
-                                                for the specified user. A streaming URL enables application streaming to be tested
-                                                without user setup
+                Grants permission to create a temporary URL to start an AppStream 2.0 streaming session for the specified user. A streaming URL enables application streaming to be tested without user setup
                </td>
                <td rowspan="3">
                 Write
@@ -733,8 +903,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create a usage report subscription. Usage reports are generated
-                                                daily
+                Grants permission to create a usage report subscription. Usage reports are generated daily
                </td>
                <td>
                 Write
@@ -768,6 +937,84 @@
                </td>
               </tr>
               <tr>
+               <td rowspan="2">
+                <a id="amazonappstream2.0-DeleteAppBlock">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DeleteAppBlock.html">
+                 DeleteAppBlock
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to delete the specified app block
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-app-block">
+                  app-block*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonappstream2.0-DeleteApplication">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DeleteApplication.html">
+                 DeleteApplication
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to delete the specified application
+               </td>
+               <td rowspan="2">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-application">
+                  application*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <a id="amazonappstream2.0-DeleteDirectoryConfig">
                 </a>
@@ -776,14 +1023,38 @@
                 </a>
                </td>
                <td>
-                Grants permission to delete the specified Directory Config object from AppStream 2.0.
-                                                This object includes the configuration information required to join fleets and image
-                                                builders to Microsoft Active Directory domains
+                Grants permission to delete the specified Directory Config object from AppStream 2.0. This object includes the configuration information required to join fleets and image builders to Microsoft Active Directory domains
                </td>
                <td>
                 Write
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-DeleteEntitlement">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DeleteEntitlement.html">
+                 DeleteEntitlement
+                </a>
+               </td>
+               <td>
+                Grants permission to delete the specified entitlement
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-stack">
+                  stack*
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -838,8 +1109,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to delete the specified image. An image cannot be deleted when it
-                                                is in use
+                Grants permission to delete the specified image. An image cannot be deleted when it is in use
                </td>
                <td rowspan="2">
                 Write
@@ -956,9 +1226,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to delete the specified stack. After the stack is deleted, the application
-                                                streaming environment provided by the stack is no longer available to users. Also,
-                                                any reservations made for application streaming sessions for the stack are released
+                Grants permission to delete the specified stack. After the stack is deleted, the application streaming environment provided by the stack is no longer available to users. Also, any reservations made for application streaming sessions for the stack are released
                </td>
                <td rowspan="2">
                 Write
@@ -1032,6 +1300,97 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonappstream2.0-DescribeAppBlocks">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DescribeAppBlocks.html">
+                 DescribeAppBlocks
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve a list that describes one or more specified app blocks, if the app block arns are provided. Otherwise, all app blocks in the account are described
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-app-block">
+                  app-block
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="2">
+                <a id="amazonappstream2.0-DescribeApplicationFleetAssociations">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DescribeApplicationFleetAssociations.html">
+                 DescribeApplicationFleetAssociations
+                </a>
+               </td>
+               <td rowspan="2">
+                Grants permission to retrieve the associations that are associated with the specified application or fleet
+               </td>
+               <td rowspan="2">
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-application">
+                  application
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-fleet">
+                  fleet
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-DescribeApplications">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DescribeApplications.html">
+                 DescribeApplications
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve a list that describes one or more specified applications, if the application arns are provided. Otherwise, all applications in the account are described
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-application">
+                  application
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonappstream2.0-DescribeDirectoryConfigs">
                 </a>
                 <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DescribeDirectoryConfigs.html">
@@ -1039,16 +1398,38 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve a list that describes one or more specified Directory
-                                                Config objects for AppStream 2.0, if the names for these objects are provided. Otherwise,
-                                                all Directory Config objects in the account are described. This object includes the
-                                                configuration information required to join fleets and image builders to Microsoft
-                                                Active Directory domains
+                Grants permission to retrieve a list that describes one or more specified Directory Config objects for AppStream 2.0, if the names for these objects are provided. Otherwise, all Directory Config objects in the account are described. This object includes the configuration information required to join fleets and image builders to Microsoft Active Directory domains
                </td>
                <td>
                 Read
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-DescribeEntitlements">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DescribeEntitlements.html">
+                 DescribeEntitlements
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve one or all entitlements for the specified stack
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-stack">
+                  stack*
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -1064,8 +1445,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve a list that describes one or more specified fleets,
-                                                if the fleet names are provided. Otherwise, all fleets in the account are described
+                Grants permission to retrieve a list that describes one or more specified fleets, if the fleet names are provided. Otherwise, all fleets in the account are described
                </td>
                <td>
                 Read
@@ -1091,9 +1471,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve a list that describes one or more specified image builders,
-                                                if the image builder names are provided. Otherwise, all image builders in the account
-                                                are described
+                Grants permission to retrieve a list that describes one or more specified image builders, if the image builder names are provided. Otherwise, all image builders in the account are described
                </td>
                <td>
                 Read
@@ -1119,8 +1497,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve a list that describes the permissions for shared AWS
-                                                account IDs on a private image that you own
+                Grants permission to retrieve a list that describes the permissions for shared AWS account IDs on a private image that you own
                </td>
                <td>
                 Read
@@ -1146,9 +1523,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve a list that describes one or more specified images,
-                                                if the image names or image ARNs are provided. Otherwise, all images in the account
-                                                are described
+                Grants permission to retrieve a list that describes one or more specified images, if the image names or image ARNs are provided. Otherwise, all images in the account are described
                </td>
                <td>
                 Read
@@ -1174,9 +1549,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to retrieve a list that describes the streaming sessions for the
-                                                specified stack and fleet. If a user ID is provided for the stack and fleet, only
-                                                the streaming sessions for that user are described
+                Grants permission to retrieve a list that describes the streaming sessions for the specified stack and fleet. If a user ID is provided for the stack and fleet, only the streaming sessions for that user are described
                </td>
                <td rowspan="2">
                 Read
@@ -1215,8 +1588,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve a list that describes one or more specified stacks,
-                                                if the stack names are provided. Otherwise, all stacks in the account are described
+                Grants permission to retrieve a list that describes one or more specified stacks, if the stack names are provided. Otherwise, all stacks in the account are described
                </td>
                <td>
                 Read
@@ -1310,13 +1682,90 @@
                 </a>
                </td>
                <td>
-                Grants permission to disable the specified user in the user pool. This action does
-                                                not delete the user
+                Grants permission to disable the specified user in the user pool. This action does not delete the user
                </td>
                <td>
                 Write
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td rowspan="3">
+                <a id="amazonappstream2.0-DisassociateApplicationFleet">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DisassociateApplicationFleet.html">
+                 DisassociateApplicationFleet
+                </a>
+               </td>
+               <td rowspan="3">
+                Grants permission to disassociate the specified application from the specified fleet
+               </td>
+               <td rowspan="3">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-application">
+                  application*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-fleet">
+                  fleet*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-DisassociateApplicationFromEntitlement">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_DisassociateApplicationFromEntitlement.html">
+                 DisassociateApplicationFromEntitlement
+                </a>
+               </td>
+               <td>
+                Grants permission to disassociate the specified application from the specified entitlement
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-stack">
+                  stack*
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -1426,8 +1875,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve the name of the fleet that is associated with the specified
-                                                stack
+                Grants permission to retrieve the name of the fleet that is associated with the specified stack
                </td>
                <td>
                 Read
@@ -1453,8 +1901,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve the name of the stack with which the specified fleet
-                                                is associated
+                Grants permission to retrieve the name of the stack with which the specified fleet is associated
                </td>
                <td>
                 Read
@@ -1473,6 +1920,32 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonappstream2.0-ListEntitledApplications">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_ListEntitledApplications.html">
+                 ListEntitledApplications
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve the applications that are associated with the specified entitlement
+               </td>
+               <td>
+                List
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-stack">
+                  stack*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonappstream2.0-ListTagsForResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_ListTagsForResource.html">
@@ -1480,8 +1953,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve a list of all tags for the specified AppStream 2.0 resource.
-                                                The following resources can be tagged: Image builders, images, fleets, and stacks
+                Grants permission to retrieve a list of all tags for the specified AppStream 2.0 resource. The following resources can be tagged: Image builders, images, fleets, and stacks
                </td>
                <td>
                 Read
@@ -1658,8 +2130,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to federated users to sign in by using their existing credentials
-                                                and stream applications from the specified stack
+                Grants permission to federated users to sign in by using their existing credentials and stream applications from the specified stack
                </td>
                <td rowspan="2">
                 Write
@@ -1690,21 +2161,45 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="5">
+               <td rowspan="7">
                 <a id="amazonappstream2.0-TagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_TagResource.html">
                  TagResource
                 </a>
                </td>
-               <td rowspan="5">
-                Grants permission to add or overwrite one or more tags for the specified AppStream
-                                                2.0 resource. The following resources can be tagged: Image builders, images, fleets,
-                                                and stacks
+               <td rowspan="7">
+                Grants permission to add or overwrite one or more tags for the specified AppStream 2.0 resource. The following resources can be tagged: Image builders, images, fleets, stacks, app blocks and applications
                </td>
-               <td rowspan="5">
+               <td rowspan="7">
                 Tagging
                </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-app-block">
+                  app-block
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-application">
+                  application
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <p>
                  <a href="#amazonappstream2.0-fleet">
@@ -1780,20 +2275,45 @@
                </td>
               </tr>
               <tr>
-               <td rowspan="5">
+               <td rowspan="7">
                 <a id="amazonappstream2.0-UntagResource">
                 </a>
                 <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_UntagResource.html">
                  UntagResource
                 </a>
                </td>
-               <td rowspan="5">
-                Grants permission to disassociate one or more tags from the specified AppStream 2.0
-                                                resource
+               <td rowspan="7">
+                Grants permission to disassociate one or more tags from the specified AppStream 2.0 resource
                </td>
-               <td rowspan="5">
+               <td rowspan="7">
                 Tagging
                </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-app-block">
+                  app-block
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-application">
+                  application
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <p>
                  <a href="#amazonappstream2.0-fleet">
@@ -1859,6 +2379,58 @@
                </td>
               </tr>
               <tr>
+               <td rowspan="3">
+                <a id="amazonappstream2.0-UpdateApplication">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_UpdateApplication.html">
+                 UpdateApplication
+                </a>
+               </td>
+               <td rowspan="3">
+                Grants permission to update the specified fields for the specified application
+               </td>
+               <td rowspan="3">
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-application">
+                  application*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-app-block">
+                  app-block
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td>
                 <a id="amazonappstream2.0-UpdateDirectoryConfig">
                 </a>
@@ -1867,14 +2439,38 @@
                 </a>
                </td>
                <td>
-                Grants permission to update the specified Directory Config object in AppStream 2.0.
-                                                This object includes the configuration information required to join fleets and image
-                                                builders to Microsoft Active Directory domains
+                Grants permission to update the specified Directory Config object in AppStream 2.0. This object includes the configuration information required to join fleets and image builders to Microsoft Active Directory domains
                </td>
                <td>
                 Write
                </td>
                <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-UpdateEntitlement">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/APIReference/API_UpdateEntitlement.html">
+                 UpdateEntitlement
+                </a>
+               </td>
+               <td>
+                Grants permission to update the specified fields for the specified entitlement
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-stack">
+                  stack*
+                 </a>
+                </p>
                </td>
                <td>
                </td>
@@ -1890,8 +2486,7 @@
                 </a>
                </td>
                <td rowspan="3">
-                Grants permission to update the specified fleet. All attributes except the fleet name
-                                                can be updated when the fleet is in the STOPPED state
+                Grants permission to update the specified fleet. All attributes except the fleet name can be updated when the fleet is in the STOPPED state
                </td>
                <td rowspan="3">
                 Write
@@ -2027,18 +2622,15 @@
             <a href="#amazonappstream2.0-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9c99c13b5">
+             <table id="w85aab5b9d107c13b5">
               <thead>
                <tr>
                 <th>
@@ -2200,6 +2792,80 @@
                 </p>
                </td>
               </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-app-block">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/developerguide/what-is-appstream.html#what-is-concepts">
+                 app-block
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:appstream:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:app-block/$
+                 <span>
+                  {
+                 </span>
+                 AppBlockName}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonappstream2.0-application">
+                </a>
+                <a href="https://docs.aws.amazon.com/appstream2/latest/developerguide/what-is-appstream.html#what-is-concepts">
+                 application
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:appstream:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:application/$
+                 <span>
+                  {
+                 </span>
+                 ApplicationName}
+                </code>
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonappstream2.0-aws_ResourceTag___TagKey_">
+                  aws:ResourceTag/${TagKey}
+                 </a>
+                </p>
+               </td>
+              </tr>
              </table>
             </div>
            </div>
@@ -2211,11 +2877,9 @@
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -2228,7 +2892,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9c99c15b7">
+             <table id="w85aab5b9d107c15b7">
               <thead>
                <tr>
                 <th>
@@ -2266,7 +2930,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the presence of tag key-value pairs in the request
+                Filters access by the presence of tag key-value pairs in the request
                </td>
                <td>
                 String
@@ -2281,7 +2945,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on tag key-value pairs attached to the resource
+                Filters access by the tag key-value pairs attached to the resource
                </td>
                <td>
                 String
@@ -2296,7 +2960,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the presence of tag keys in the request
+                Filters access by the presence of tag keys in the request
                </td>
                <td>
                 String
@@ -2322,8 +2986,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>

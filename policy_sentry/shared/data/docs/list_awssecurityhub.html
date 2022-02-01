@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              securityhub
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1019c11b9">
+             <table id="w85aab5b9e1090c11b9">
               <thead>
                <tr>
                 <th>
@@ -383,8 +371,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to update customer-controlled fields for a selected set of Security
-                                                Hub findings
+                Grants permission to update customer-controlled fields for a selected set of Security Hub findings
                </td>
                <td rowspan="2">
                 Write
@@ -442,6 +429,27 @@
               </tr>
               <tr>
                <td>
+                <a id="awssecurityhub-CreateFindingAggregator">
+                </a>
+                <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateFindingAggregator.html">
+                 CreateFindingAggregator
+                </a>
+               </td>
+               <td>
+                Grants permission to create a finding aggregator, which contains the cross-Region finding aggregation configuration
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awssecurityhub-CreateInsight">
                 </a>
                 <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_CreateInsight.html">
@@ -449,8 +457,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create insights in Security Hub. Insights are collections of
-                                                related findings
+                Grants permission to create insights in Security Hub. Insights are collections of related findings
                </td>
                <td>
                 Write
@@ -537,6 +544,32 @@
                 <p>
                  <a href="#awssecurityhub-hub">
                   hub
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awssecurityhub-DeleteFindingAggregator">
+                </a>
+                <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_DeleteFindingAggregator.html">
+                 DeleteFindingAggregator
+                </a>
+               </td>
+               <td>
+                Grants permission to delete a finding aggregator, which disables finding aggregation across Regions
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awssecurityhub-finding-aggregator">
+                  finding-aggregator*
                  </a>
                 </p>
                </td>
@@ -710,8 +743,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve information about the available Security Hub product
-                                                integrations
+                Grants permission to retrieve information about the available Security Hub product integrations
                </td>
                <td>
                 Read
@@ -789,8 +821,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to disable the findings importing for a Security Hub integrated
-                                                product
+                Grants permission to disable the findings importing for a Security Hub integrated product
                </td>
                <td>
                 Write
@@ -871,8 +902,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to a Security Hub member account to disassociate from the associated
-                                                administrator account
+                Grants permission to a Security Hub member account to disassociate from the associated administrator account
                </td>
                <td>
                 Write
@@ -898,8 +928,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to a Security Hub member account to disassociate from the associated
-                                                master account
+                Grants permission to a Security Hub member account to disassociate from the associated master account
                </td>
                <td>
                 Write
@@ -925,8 +954,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to disassociate Security Hub member accounts from the associated
-                                                administrator account
+                Grants permission to disassociate Security Hub member accounts from the associated administrator account
                </td>
                <td>
                 Write
@@ -1058,8 +1086,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to retrieve insight results by providing a set of filters instead
-                                                of an insight ARN
+                Grants permission to retrieve insight results by providing a set of filters instead of an insight ARN
                </td>
                <td>
                 Read
@@ -1112,8 +1139,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to retrieve a security score and counts of finding and control statuses
-                                                for a security standard
+                Grants permission to retrieve a security score and counts of finding and control statuses for a security standard
                </td>
                <td>
                 Read
@@ -1139,8 +1165,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve a list of the standards that are enabled in Security
-                                                Hub
+                Grants permission to retrieve a list of the standards that are enabled in Security Hub
                </td>
                <td>
                 List
@@ -1149,6 +1174,32 @@
                 <p>
                  <a href="#awssecurityhub-hub">
                   hub
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awssecurityhub-GetFindingAggregator">
+                </a>
+                <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_GetFindingAggregator.html">
+                 GetFindingAggregator
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve details for a finding aggregator, which configures finding aggregation across Regions
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#awssecurityhub-finding-aggregator">
+                  finding-aggregator*
                  </a>
                 </p>
                </td>
@@ -1193,8 +1244,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to retrieve the end date for an account's free trial of Security
-                                                Hub
+                Grants permission to retrieve the end date for an account's free trial of Security Hub
                </td>
                <td>
                 Read
@@ -1221,8 +1271,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to retrieve information about Security Hub usage during the free
-                                                trial period
+                Grants permission to retrieve information about Security Hub usage during the free trial period
                </td>
                <td>
                 Read
@@ -1249,8 +1298,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to retrieve an insight finding trend from Security Hub in order
-                                                to generate a graph
+                Grants permission to retrieve an insight finding trend from Security Hub in order to generate a graph
                </td>
                <td>
                 Read
@@ -1328,8 +1376,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve the count of Security Hub membership invitations sent
-                                                to the account
+                Grants permission to retrieve the count of Security Hub membership invitations sent to the account
                </td>
                <td>
                 Read
@@ -1461,8 +1508,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to retrieve a list of controls for a standard, including the control
-                                                IDs, statuses and finding counts
+                Grants permission to retrieve a list of controls for a standard, including the control IDs, statuses and finding counts
                </td>
                <td>
                 Read
@@ -1488,8 +1534,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve the Security Hub integrated products that are currently
-                                                enabled
+                Grants permission to retrieve the Security Hub integrated products that are currently enabled
                </td>
                <td>
                 List
@@ -1500,6 +1545,27 @@
                   hub
                  </a>
                 </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="awssecurityhub-ListFindingAggregators">
+                </a>
+                <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateFindingAggregator.html">
+                 ListFindingAggregators
+                </a>
+               </td>
+               <td>
+                Grants permission to retrieve a list of finding aggregators, which contain the cross-Region finding aggregation configuration
+               </td>
+               <td>
+                List
+               </td>
+               <td>
                </td>
                <td>
                </td>
@@ -1541,8 +1607,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to retrieve details about Security Hub member accounts associated
-                                                with the administrator account
+                Grants permission to retrieve details about Security Hub member accounts associated with the administrator account
                </td>
                <td>
                 List
@@ -1748,6 +1813,32 @@
               </tr>
               <tr>
                <td>
+                <a id="awssecurityhub-UpdateFindingAggregator">
+                </a>
+                <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateFindingAggregator.html">
+                 UpdateFindingAggregator
+                </a>
+               </td>
+               <td>
+                Grants permission to update a finding aggregator, which contains the cross-Region finding aggregation configuration
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#awssecurityhub-finding-aggregator">
+                  finding-aggregator*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="awssecurityhub-UpdateFindings">
                 </a>
                 <a href="https://docs.aws.amazon.com/securityhub/1.0/APIReference/API_UpdateFindings.html">
@@ -1891,18 +1982,15 @@
             <a href="#awssecurityhub-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1019c13b5">
+             <table id="w85aab5b9e1090c13b5">
               <thead>
                <tr>
                 <th>
@@ -1985,6 +2073,38 @@
                <td>
                </td>
               </tr>
+              <tr>
+               <td>
+                <a id="awssecurityhub-finding-aggregator">
+                </a>
+                <a href="https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-access.html#resources">
+                 finding-aggregator
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:securityhub:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:finding-aggregator/$
+                 <span>
+                  {
+                 </span>
+                 FindingAggregatorId}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
              </table>
             </div>
            </div>
@@ -1996,11 +2116,9 @@
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -2013,7 +2131,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9e1019c15b7">
+             <table id="w85aab5b9e1090c15b7">
               <thead>
                <tr>
                 <th>
@@ -2036,7 +2154,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the presence of tag key-value pairs in the request
+                Filters access by actions based on the presence of tag key-value pairs in the request
                </td>
                <td>
                 String
@@ -2051,7 +2169,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on tag key-value pairs attached to the resource
+                Filters access by actions based on tag key-value pairs attached to the resource
                </td>
                <td>
                 String
@@ -2066,7 +2184,7 @@
                 </a>
                </td>
                <td>
-                Filters actions based on the presence of tag keys in the request
+                Filters access by actions based on the presence of tag keys in the request
                </td>
                <td>
                 String
@@ -2081,7 +2199,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on the presence of specific fields and values in the request
+                Filters access by the specified fields and values in the request
                </td>
                <td>
                 String
@@ -2096,7 +2214,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on the presence of AwsAccountId field in the requests
+                Filters access by the AwsAccountId field that is specified in the request
                </td>
                <td>
                 String
@@ -2122,8 +2240,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>

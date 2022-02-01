@@ -16,24 +16,23 @@
   <meta content="IAD" name="deployment_region"/>
   <meta content="Service Authorization Reference" name="product"/>
   <meta content="Service Authorization Reference" name="guide"/>
-  <meta content="de_de:Deutsch/en_us:English/es_es:Español/fr_fr:Français/it_it:Italiano/ja_jp:日本語/ko_kr:한국어/pt_br:Português/zh_cn:中文 (简体)/zh_tw:中文 (繁體)" name="locales"/>
   <meta content="Provides a list of the actions, resources, and condition keys supported by each AWS service that can be used in an IAM policy." name="abstract"/>
   <meta content="en_us" name="guide-locale"/>
   <meta content="toc-contents.json" name="tocs"/>
   <meta content="Service Authorization Docs" name="feedback-item"/>
   <meta content="Service Authorization Reference" name="this_doc_product"/>
   <meta content="Service Authorization Reference" name="this_doc_guide"/>
-  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2020.09.30" rel="stylesheet"/>
-  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2020.09.30" rel="stylesheet"/>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2020.09.30" type="text/javascript">
+  <link href="https://docs.aws.amazon.com/assets/css/vendor4.css?version=2021.12.02" rel="stylesheet"/>
+  <link href="https://docs.aws.amazon.com/assets/css/awsdocs-common.css?version=2021.12.02" rel="stylesheet"/>
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor3.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor4.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/vendor1.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-common.js?version=2021.12.02" type="text/javascript">
   </script>
-  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2020.09.30" type="text/javascript">
+  <script defer="" src="https://docs.aws.amazon.com/assets/js/awsdocs-doc-app.js?version=2021.12.02" type="text/javascript">
   </script>
  </head>
  <body class="awsdocs awsui" ng-csp="no-unsafe-eval">
@@ -107,8 +106,7 @@
             <code class="code">
              quicksight
             </code>
-            ) provides the following    service-specific resources, actions, and condition context
-                                    keys for use in IAM permission    policies.
+            ) provides the following    service-specific resources, actions, and condition context keys for use in IAM permission    policies.
            </p>
            <p>
             References:
@@ -176,39 +174,29 @@
             <code class="code">
              Action
             </code>
-            element of an IAM      policy statement. Use policies to grant permissions to perform
-                                    an operation in AWS. When you      use an action in a policy, you usually allow or
-                                    deny access to the API operation or CLI      command with the same name. However,
-                                    in some cases, a single action controls access to more      than one operation. Alternatively,
-                                    some operations require several different actions.
+            element of an IAM      policy statement. Use policies to grant permissions to perform an operation in AWS. When you      use an action in a policy, you usually allow or deny access to the API operation or CLI      command with the same name. However, in some cases, a single action controls access to more      than one operation. Alternatively, some operations require several different actions.
            </p>
            <p>
             The
             <b>
              Resource types
             </b>
-            column indicates whether each action supports      resource-level permissions. If
-                                    there is no value for this column, you must specify all      resources ("*") in the
+            column indicates whether each action supports      resource-level permissions. If there is no value for this column, you must specify all      resources ("*") in the
             <code class="code">
              Resource
             </code>
-            element of your policy statement. If the column      includes a resource type, then
-                                    you can specify an ARN of that type in a statement with that      action. Required
-                                    resources are indicated in the table with an asterisk (*). If you specify a      resource-level
-                                    permission ARN in a statement using this action, then it must be of this type.   
-                                    Some actions support multiple resource types. If the resource type is optional (not
-                                    indicated      as required), then you can choose to use one but not the other.
+            element of your policy statement. If the column      includes a resource type, then you can specify an ARN of that type in a statement with that      action. Required resources are indicated in the table with an asterisk (*). If you specify a      resource-level permission ARN in a statement using this action, then it must be of this type.      Some actions support multiple resource types. If the resource type is optional (not indicated      as required), then you can choose to use one but not the other.
            </p>
            <p>
             For details about the columns in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#actions_table">
-             The actions table
+            <a href="reference_policies_actions-resources-contextkeys.html#actions_table" rel="noopener noreferrer" target="_blank">
+             Actions table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d927c11b9">
+             <table id="w85aab5b9d990c11b9">
               <thead>
                <tr>
                 <th>
@@ -550,6 +538,33 @@
                </td>
               </tr>
               <tr>
+               <td>
+                <a id="amazonquicksight-CreateEmailCustomizationTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/quicksight/latest/user/customizing-quicksight-email-templates.html">
+                 CreateEmailCustomizationTemplate
+                </a>
+                [permission only]
+               </td>
+               <td>
+                Grants permission to create a QuickSight email customization template
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonquicksight-emailCustomizationTemplate">
+                  emailCustomizationTemplate*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
                <td rowspan="2">
                 <a id="amazonquicksight-CreateFolder">
                 </a>
@@ -602,8 +617,7 @@
                 </a>
                </td>
                <td rowspan="4">
-                Grants permission to add a QuickSight Dashboard, Analysis or Dataset to a QuickSight
-                                                Folder
+                Grants permission to add a QuickSight Dashboard, Analysis or Dataset to a QuickSight Folder
                </td>
                <td rowspan="4">
                 Write
@@ -761,8 +775,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create an assignment with one specified IAM Policy ARN that will
-                                                be assigned to specified groups or users of QuickSight
+                Grants permission to create an assignment with one specified IAM Policy ARN that will be assigned to specified groups or users of QuickSight
                </td>
                <td>
                 Write
@@ -1009,7 +1022,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grant permission to create a theme
+                Grants permission to create a theme
                </td>
                <td rowspan="2">
                 Write
@@ -1190,7 +1203,7 @@
                 </a>
                </td>
                <td>
-                Grants permissions to delete an analysis
+                Grants permission to delete an analysis
                </td>
                <td>
                 Write
@@ -1345,6 +1358,33 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonquicksight-DeleteEmailCustomizationTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/quicksight/latest/user/customizing-quicksight-email-templates.html">
+                 DeleteEmailCustomizationTemplate
+                </a>
+                [permission only]
+               </td>
+               <td>
+                Grants permission to delete a QuickSight email customization template
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonquicksight-emailCustomizationTemplate">
+                  emailCustomizationTemplate*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonquicksight-DeleteFolder">
                 </a>
                 <a href="https://docs.aws.amazon.com/quicksight/latest/APIReference/API_DeleteFolder.html">
@@ -1378,8 +1418,7 @@
                 </a>
                </td>
                <td rowspan="4">
-                Grants permission to remove a QuickSight Dashboard, Analysis or Dataset from a QuickSight
-                                                Folder
+                Grants permission to remove a QuickSight Dashboard, Analysis or Dataset from a QuickSight Folder
                </td>
                <td rowspan="4">
                 Write
@@ -1470,8 +1509,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to remove a user from a group so that he/she is no longer a member
-                                                of the group
+                Grants permission to remove a user from a group so that he/she is no longer a member of the group
                </td>
                <td>
                 Write
@@ -2074,6 +2112,33 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonquicksight-DescribeEmailCustomizationTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/quicksight/latest/user/customizing-quicksight-email-templates.html">
+                 DescribeEmailCustomizationTemplate
+                </a>
+                [permission only]
+               </td>
+               <td>
+                Grants permission to describe a QuickSight email customization template
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonquicksight-emailCustomizationTemplate">
+                  emailCustomizationTemplate*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonquicksight-DescribeFolder">
                 </a>
                 <a href="https://docs.aws.amazon.com/quicksight/latest/APIReference/API_DescribeFolder.html">
@@ -2242,6 +2307,27 @@
                   aws:TagKeys
                  </a>
                 </p>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonquicksight-DescribeIpRestriction">
+                </a>
+                <a href="https://docs.aws.amazon.com/quicksight/latest/APIReference/API_DescribeIpRestriction.html">
+                 DescribeIpRestriction
+                </a>
+               </td>
+               <td>
+                Grants permission to describe the IP restrictions for QuickSight account
+               </td>
+               <td>
+                Read
+               </td>
+               <td>
+               </td>
+               <td>
                </td>
                <td>
                </td>
@@ -2463,8 +2549,7 @@
                 </a>
                </td>
                <td rowspan="2">
-                Grants permission to generate a URL used to embed a QuickSight Dashboard for a user
-                                                not registered with QuickSight
+                Grants permission to generate a URL used to embed a QuickSight Dashboard for a user not registered with QuickSight
                </td>
                <td rowspan="2">
                 Write
@@ -2503,8 +2588,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to generate a URL used to embed a QuickSight Dashboard for a user
-                                                registered with QuickSight
+                Grants permission to generate a URL used to embed a QuickSight Dashboard for a user registered with QuickSight
                </td>
                <td>
                 Write
@@ -2531,8 +2615,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to get a URL used to embed a QuickSight Dashboard for a user not
-                                                registered with QuickSight
+                Grants permission to get a URL used to embed a QuickSight Dashboard for a user not registered with QuickSight
                </td>
                <td>
                 Read
@@ -2607,9 +2690,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to use Amazon QuickSight, in Enterprise edition, to identify and
-                                                display the Microsoft Active Directory (Microsoft Active Directory) directory groups
-                                                that are mapped to roles in Amazon QuickSight
+                Grants permission to use Amazon QuickSight, in Enterprise edition, to identify and display the Microsoft Active Directory (Microsoft Active Directory) directory groups that are mapped to roles in Amazon QuickSight
                </td>
                <td>
                 Read
@@ -3397,8 +3478,7 @@
                 </a>
                </td>
                <td>
-                Grants permission to create a QuickSight user, whose identity is associated with the
-                                                IAM identity/role specified in the request
+                Grants permission to create a QuickSight user, whose identity is associated with the IAM identity/role specified in the request
                </td>
                <td>
                 Write
@@ -3513,9 +3593,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to use Amazon QuickSight, in Enterprise edition, to display your
-                                                Microsoft Active Directory directory groups so that you can choose which ones to map
-                                                to roles in Amazon QuickSight
+                Grants permission to use Amazon QuickSight, in Enterprise edition, to display your Microsoft Active Directory directory groups so that you can choose which ones to map to roles in Amazon QuickSight
                </td>
                <td>
                 List
@@ -3563,9 +3641,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to use Amazon QuickSight, in Enterprise edition, to display your
-                                                Microsoft Active Directory directory groups so that you can choose which ones to map
-                                                to roles in Amazon QuickSight
+                Grants permission to use Amazon QuickSight, in Enterprise edition, to display your Microsoft Active Directory directory groups so that you can choose which ones to map to roles in Amazon QuickSight
                </td>
                <td>
                 Write
@@ -3587,8 +3663,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to subscribe to Amazon QuickSight, and also to allow the user to
-                                                upgrade the subscription to Enterprise edition
+                Grants permission to subscribe to Amazon QuickSight, and also to allow the user to upgrade the subscription to Enterprise edition
                </td>
                <td>
                 Write
@@ -3716,8 +3791,7 @@
                 [permission only]
                </td>
                <td>
-                Grants permission to unsubscribe from Amazon QuickSight, which permanently deletes
-                                                all users and their resources from Amazon QuickSight
+                Grants permission to unsubscribe from Amazon QuickSight, which permanently deletes all users and their resources from Amazon QuickSight
                </td>
                <td>
                 Write
@@ -4213,6 +4287,33 @@
               </tr>
               <tr>
                <td>
+                <a id="amazonquicksight-UpdateEmailCustomizationTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/quicksight/latest/user/customizing-quicksight-email-templates.html">
+                 UpdateEmailCustomizationTemplate
+                </a>
+                [permission only]
+               </td>
+               <td>
+                Grants permission to update a QuickSight email customization template
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
+                <p>
+                 <a href="#amazonquicksight-emailCustomizationTemplate">
+                  emailCustomizationTemplate*
+                 </a>
+                </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
                 <a id="amazonquicksight-UpdateFolder">
                 </a>
                 <a href="https://docs.aws.amazon.com/quicksight/latest/APIReference/API_UpdateFolder.html">
@@ -4309,6 +4410,27 @@
                   assignment*
                  </a>
                 </p>
+               </td>
+               <td>
+               </td>
+               <td>
+               </td>
+              </tr>
+              <tr>
+               <td>
+                <a id="amazonquicksight-UpdateIpRestriction">
+                </a>
+                <a href="https://docs.aws.amazon.com/quicksight/latest/APIReference/API_UpdateIpRestriction.html">
+                 UpdateIpRestriction
+                </a>
+               </td>
+               <td>
+                Grants permission to update the IP restrictions for QuickSight account
+               </td>
+               <td>
+                Write
+               </td>
+               <td>
                </td>
                <td>
                </td>
@@ -4512,18 +4634,15 @@
             <a href="#amazonquicksight-actions-as-permissions">
              Actions table
             </a>
-            identifies the      resource types that can be specified with that action. A resource
-                                    type can also define which      condition keys you can include in a policy. These
-                                    keys are displayed in the last column of the      table. For details about the columns
-                                    in the following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#resources_table">
-             The resource types table
+            identifies the      resource types that can be specified with that action. A resource type can also define which      condition keys you can include in a policy. These keys are displayed in the last column of the      table. For details about the columns in the following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#resources_table" rel="noopener noreferrer" target="_blank">
+             Resource types table
             </a>
             .
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d927c13b5">
+             <table id="w85aab5b9d990c13b5">
               <thead>
                <tr>
                 <th>
@@ -4998,6 +5117,38 @@
                 </p>
                </td>
               </tr>
+              <tr>
+               <td>
+                <a id="amazonquicksight-emailCustomizationTemplate">
+                </a>
+                <a href="https://docs.aws.amazon.com/quicksight/latest/user/customizing-quicksight-email-templates.html">
+                 emailCustomizationTemplate
+                </a>
+               </td>
+               <td>
+                <code class="code">
+                 arn:$
+                 <span>
+                  {
+                 </span>
+                 Partition}:quicksight:$
+                 <span>
+                  {
+                 </span>
+                 Region}:$
+                 <span>
+                  {
+                 </span>
+                 Account}:email-customization-template/$
+                 <span>
+                  {
+                 </span>
+                 ResourceId}
+                </code>
+               </td>
+               <td>
+               </td>
+              </tr>
              </table>
             </div>
            </div>
@@ -5009,11 +5160,9 @@
             <code class="code">
              Condition
             </code>
-            element of an IAM policy. You can use these keys to further refine      the conditions
-                                    under which the policy statement applies. For details about the columns in the   
-                                    following table, see
-            <a href="./reference_policies_actions-resources-contextkeys.html#context_keys_table">
-             The condition keys table
+            element of an IAM policy. You can use these keys to further refine      the conditions under which the policy statement applies. For details about the columns in the      following table, see
+            <a href="reference_policies_actions-resources-contextkeys.html#context_keys_table" rel="noopener noreferrer" target="_blank">
+             Condition keys table
             </a>
             .
            </p>
@@ -5026,7 +5175,7 @@
            </p>
            <div class="table-container">
             <div class="table-contents">
-             <table id="w86aab5b9d927c15b7">
+             <table id="w85aab5b9d990c15b7">
               <thead>
                <tr>
                 <th>
@@ -5094,7 +5243,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on the user management options
+                Filters access by the user management options
                </td>
                <td>
                 String
@@ -5109,7 +5258,7 @@
                 </a>
                </td>
                <td>
-                Filters access based on the edition of QuickSight
+                Filters access by the edition of QuickSight
                </td>
                <td>
                 String
@@ -5180,8 +5329,7 @@
                 </strong>
                </p>
                <p>
-                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer
-                                                to your browser's Help pages for instructions.
+                To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.
                </p>
               </div>
              </div>
